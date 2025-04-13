@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour 
 {
-    public Rigidbody2D rb;
-    public Camera sceneCamera;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Camera sceneCamera;
 
-    public float moveSpeed;
+    [SerializeField] private float moveSpeed;
     private Vector2 moveDirection;
 
     private Vector2 mousePosition;
+    [SerializeField] private WeaponController weaponController;
 
     void Update()
     {
@@ -26,6 +27,11 @@ public class PlayerController : MonoBehaviour
     {
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            weaponController.Fire();
+        }
 
         moveDirection = new Vector2(moveX, moveY).normalized;
 
