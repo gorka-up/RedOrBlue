@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 mousePosition;
     [SerializeField] private WeaponController weaponController;
+    
+    [SerializeField] private int Health;
 
     void Update()
     {
@@ -46,6 +48,19 @@ public class PlayerController : MonoBehaviour
         float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = aimAngle;
     }
-
+    //hacerse daño
+    public void GetHurt()
+    {
+        Health--;
+        Debug.Log(Health);
+        if (Health <= 0)
+        {
+            Muerto();
+        }
+    }
+    //morirse
+    void Muerto()
+    { 
+    }
     //Disparo
 }
