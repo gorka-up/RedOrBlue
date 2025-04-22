@@ -5,13 +5,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Camera sceneCamera;
 
-    [SerializeField] private float moveSpeed;
     private Vector2 moveDirection;
 
     private Vector2 mousePosition;
     [SerializeField] private WeaponController weaponController;
     
     [SerializeField] private int Health;
+    [SerializeField] private int Damage;
+    [SerializeField] private int Greed;
+    [SerializeField] private int Cadence;
+    [SerializeField] private float moveSpeed;
+
+
 
     void Update()
     {
@@ -62,5 +67,12 @@ public class PlayerController : MonoBehaviour
     void Muerto()
     { 
     }
-    //Disparo
+    
+    void LevelUp(int opcion)
+    {
+        //switch (opcion)
+        //{
+            
+        //}
+    }
 }
