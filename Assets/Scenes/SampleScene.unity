@@ -646,9 +646,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ba41f6a07f16f741b0ddf357d086ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 4094965450902083620, guid: ef9c4a7cfbd08d3408a3b3b08df28167, type: 3}
+  Red_Bullet: {fileID: 4094965450902083620, guid: ef9c4a7cfbd08d3408a3b3b08df28167, type: 3}
+  Blue_Bullet: {fileID: 4094965450902083620, guid: 6fd29457c727b3b4fbd4455348518eab, type: 3}
   firePoint: {fileID: 1860096775}
   fireForce: 20
+  mode: 0
 --- !u!1001 &8387907900519815108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -660,6 +662,10 @@ PrefabInstance:
     - target: {fileID: 3066431742989069782, guid: f35b5c8143059154da1aea922e76f5f1, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066431742989069782, guid: f35b5c8143059154da1aea922e76f5f1, type: 3}
+      propertyPath: m_TagString
+      value: Red_Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4204998155869324339, guid: f35b5c8143059154da1aea922e76f5f1, type: 3}
       propertyPath: m_LocalPosition.x

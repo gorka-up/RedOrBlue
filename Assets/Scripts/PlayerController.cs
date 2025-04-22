@@ -40,6 +40,11 @@ public class PlayerController : MonoBehaviour
             weaponController.Fire();
         }
 
+        if (Input.GetMouseButtonDown(1))
+        {
+            weaponController.ChangeMode();
+        }
+
         moveDirection = new Vector2(moveX, moveY).normalized;
 
         mousePosition = sceneCamera.ScreenToWorldPoint(Input.mousePosition);

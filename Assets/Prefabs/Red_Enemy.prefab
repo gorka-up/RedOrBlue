@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1643306411721805224}
   - component: {fileID: 6167451007868136368}
   m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Enemy
+  m_Name: Red_Enemy
+  m_TagString: Red_Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,6 +104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetivo: {fileID: 0}
   Speed: 2.5
+  Health: 10
 --- !u!50 &1643306411721805224
 Rigidbody2D:
   serializedVersion: 5
