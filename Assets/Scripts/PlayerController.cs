@@ -10,13 +10,15 @@ public class PlayerController : MonoBehaviour
     private Vector2 mousePosition;
     [SerializeField] private WeaponController weaponController;
     
+    //estadisticas del jugador
     [SerializeField] private int Health;
-    [SerializeField] private int Damage;
-    [SerializeField] private int Greed;
-    [SerializeField] private int Cadence;
+    [SerializeField] private int MaxHealth;
+    [SerializeField] private double Damage;
+    [SerializeField] private double Greed;
+    [SerializeField] private double Cadence;
     [SerializeField] private float moveSpeed;
 
-
+    [SerializeField] private int XP;
 
     void Update()
     {
@@ -72,12 +74,40 @@ public class PlayerController : MonoBehaviour
     void Muerto()
     { 
     }
-    
+
+    int HealthLvl;
+    int DamageLvl;
+    int GreedLvl;
+    int CadenceLvl;
+    int moveSpeedLvl;
     void LevelUp(int opcion)
     {
-        //switch (opcion)
-        //{
-            
-        //}
+        switch (opcion)
+        {
+            //Health
+            case 1:
+                Health++;
+                MaxHealth++;
+                HealthLvl++;
+                break;
+            //Damage
+            case 2:
+                Damage = Damage + Damage * 0.2;
+                DamageLvl++;
+                break;
+            //Greed
+            case 3:
+                Greed = Greed + 0.3;
+                GreedLvl++;
+                break;
+            //Cadence
+            case 4:
+                Cadence = Cadence + Cadence * 0.15;
+                CadenceLvl++;
+                break;
+            //Speed
+            case 5:
+                break;
+        }
     }
 }
