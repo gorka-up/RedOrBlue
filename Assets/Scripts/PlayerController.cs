@@ -13,12 +13,18 @@ public class PlayerController : MonoBehaviour
     //estadisticas del jugador
     [SerializeField] private int Health;
     [SerializeField] private int MaxHealth;
-    [SerializeField] private double Damage;
-    [SerializeField] private double Greed;
+    [SerializeField] public double Damage;
+    [SerializeField] public double Greed;
     [SerializeField] private double Cadence;
     [SerializeField] private float moveSpeed;
 
     [SerializeField] public int XP;
+
+    public int HealthLvl = 1;
+    public int DamageLvl = 1;
+    public int GreedLvl = 1;
+    public int CadenceLvl = 1;
+    public int moveSpeedLvl = 1;
 
     void Update()
     {
@@ -34,15 +40,15 @@ public class PlayerController : MonoBehaviour
     //Movimiento
     void ProcessInputs()
     {
-        float moveX = Input.GetAxis("Horizontal");
-        float moveY = Input.GetAxis("Vertical");
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
 
         if(Input.GetMouseButtonDown(0))
         {
             weaponController.Fire();
         }
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && Time.timeScale != 0)
         {
             weaponController.ChangeMode();
         }
@@ -53,7 +59,7 @@ public class PlayerController : MonoBehaviour
     }
     void Move()
     {
-        rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
+        rb.linearVelocity = (new Vector2(moveDirection.x, moveDirection.y) * moveSpeed);
 
         //Rotar al jugador para seguir el raton
         Vector2 aimDirection = mousePosition - rb.position;
@@ -75,11 +81,7 @@ public class PlayerController : MonoBehaviour
     { 
     }
 
-    public int HealthLvl = 1;
-    public int DamageLvl = 1;
-    public int GreedLvl = 1;
-    public int CadenceLvl = 1;
-    public int moveSpeedLvl = 1;
+   
     public void LevelUp(int opcion)
     {
         switch (opcion)

@@ -5,7 +5,7 @@ public class EnemigoController : MonoBehaviour
     [SerializeField] private Transform objetivo;
     [SerializeField] private float Speed;
 
-    [SerializeField] private int Health = 10;
+    [SerializeField] private double Health = 10;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,7 +28,7 @@ public class EnemigoController : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(double damage)
     {
         Health = Health-damage;
         Debug.Log(Health);

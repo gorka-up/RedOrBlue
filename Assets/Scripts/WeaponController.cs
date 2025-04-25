@@ -13,16 +13,19 @@ public class WeaponController : MonoBehaviour
     public bool mode = false;
     public void Fire()
     {
-        GameObject projectile;
-        if (mode)
+        if (Time.timeScale != 0)
         {
-            projectile = Instantiate(Blue_Bullet, firePoint.position, firePoint.rotation);
+            GameObject projectile;
+            if (mode)
+            {
+                projectile = Instantiate(Blue_Bullet, firePoint.position, firePoint.rotation);
+            }
+            else
+            {
+                projectile = Instantiate(Red_Bullet, firePoint.position, firePoint.rotation);
+            }
+            projectile.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
         }
-        else
-        {
-            projectile = Instantiate(Red_Bullet, firePoint.position, firePoint.rotation);
-        }
-        projectile.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
     }
 
  
