@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Camera sceneCamera;
 
-    private Vector2 moveDirection;
+    private Vector3 movementVector;
 
     private Vector2 mousePosition;
     [SerializeField] private WeaponController weaponController;
@@ -26,6 +26,12 @@ public class PlayerController : MonoBehaviour
     public int CadenceLvl = 1;
     public int moveSpeedLvl = 1;
 
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        movementVector = new Vector3();
+    }
+
     void Update()
     {
         ProcessInputs();
@@ -40,8 +46,8 @@ public class PlayerController : MonoBehaviour
     //Movimiento
     void ProcessInputs()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+        movementVector.x = Input.GetAxisRaw("Horizontal");
+        movementVector.y = Input.GetAxisRaw("Vertical");
 
         if(Input.GetMouseButtonDown(0))
         {
@@ -53,13 +59,11 @@ public class PlayerController : MonoBehaviour
             weaponController.ChangeMode();
         }
 
-        moveDirection = new Vector2(moveX, moveY).normalized;
-
         mousePosition = sceneCamera.ScreenToWorldPoint(Input.mousePosition);
     }
     void Move()
     {
-        rb.linearVelocity = (new Vector2(moveDirection.x, moveDirection.y) * moveSpeed);
+        rb.linearVelocity = (movementVector * moveSpeed);
 
         //Rotar al jugador para seguir el raton
         Vector2 aimDirection = mousePosition - rb.position;
