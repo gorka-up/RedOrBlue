@@ -85,7 +85,11 @@ public class UpgradeMenu : MonoBehaviour
 
     public void SpeedUpgrade()
     {
-        //Aquí va la mejora de velocidad para cuando se ponga la nueva velocidad
+        if (playerController.XP >= 100 * playerController.moveSpeedLvl && playerController.moveSpeed < 10)
+        {
+            playerController.moveSpeed = playerController.moveSpeed - 100 * playerController.moveSpeedLvl;
+            playerController.LevelUp(5);
+        }
     }
 
     void SetStats()

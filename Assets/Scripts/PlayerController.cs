@@ -117,6 +117,14 @@ public class PlayerController : MonoBehaviour
                 break;
             //Speed
             case 5:
+                if (moveSpeed < 10)
+                {
+                    moveSpeed = moveSpeed + 1/2;
+                    moveSpeedLvl++;
+                    Debug.Log(moveSpeed);
+                }
+                break;
+            default: 
                 break;
         }
     }
