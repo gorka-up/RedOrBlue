@@ -1,13 +1,21 @@
 using JetBrains.Annotations;
 using System.Xml.XPath;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UpgradeMenu : MonoBehaviour
 {
+    [SerializeField] GameObject HealthAmount;
+    [SerializeField] GameObject DamageAmount;
+    [SerializeField] GameObject GreedAmount;
+    [SerializeField] GameObject CadenceAmount;
+    [SerializeField] GameObject SpeedAmount;
+    [SerializeField] GameObject XPAmount;
+
     public GameObject upgradeMenu;
     public PlayerController playerController;
     public void Pause()
-    { 
+    {
         upgradeMenu.SetActive(true);
         Time.timeScale = 0;
     }
@@ -21,6 +29,7 @@ public class UpgradeMenu : MonoBehaviour
     private void Start()
     {
         upgradeMenu.SetActive(false);
+        SetStats();
     }
     private void Update()
     {
@@ -35,6 +44,7 @@ public class UpgradeMenu : MonoBehaviour
                 Pause();
             }
         }
+        SetStats();
     }
 
     public void HealthUpgrade()
@@ -76,5 +86,16 @@ public class UpgradeMenu : MonoBehaviour
     public void SpeedUpgrade()
     {
         //Aquí va la mejora de velocidad para cuando se ponga la nueva velocidad
+    }
+
+    void SetStats()
+    {
+        HealthAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.MaxHealth;
+        DamageAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Damage;
+        DamageAmount.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.RoundToInt((float)playerController.Damage);
+        GreedAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Greed;
+        CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.Round((float)playerController.Cadence);
+        SpeedAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.moveSpeed;
+        XPAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.XP;
     }
 }

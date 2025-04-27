@@ -11,12 +11,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private WeaponController weaponController;
     
     //estadisticas del jugador
-    [SerializeField] private int Health;
-    [SerializeField] private int MaxHealth;
+    [SerializeField] public int Health;
+    [SerializeField] public int MaxHealth;
     [SerializeField] public double Damage;
     [SerializeField] public double Greed;
-    [SerializeField] private double Cadence;
-    [SerializeField] private float moveSpeed;
+    [SerializeField] public double Cadence;
+    [SerializeField] public float moveSpeed;
 
     [SerializeField] public int XP;
 
