@@ -103,8 +103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objetivo: {fileID: 0}
-  Speed: 2.5
-  Health: 10
+  Speed: 0
+  Health: 100
 --- !u!50 &1643306411721805224
 Rigidbody2D:
   serializedVersion: 5
@@ -131,7 +131,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &6167451007868136368
 CircleCollider2D:
   m_ObjectHideFlags: 0
