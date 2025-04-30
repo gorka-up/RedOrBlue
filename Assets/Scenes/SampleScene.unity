@@ -1427,7 +1427,7 @@ MonoBehaviour:
   objetivo: {fileID: 1400170449}
   bullet: {fileID: 2998779844393007864, guid: 75b6fef1af6da8d499161262c199394c, type: 3}
   bulletPos: {fileID: 1879893827}
-  ViewDistance: 10
+  ViewDistance: 7
 --- !u!212 &734142795
 SpriteRenderer:
   m_ObjectHideFlags: 0
