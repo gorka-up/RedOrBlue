@@ -29,6 +29,11 @@ public class Red_BulletController : MonoBehaviour
                     Destroy(gameObject);
                     break;
                 }
+            case "Blue_Enemy":
+                {
+                    Destroy(gameObject);
+                    break;
+                }
         }
     }
 }
