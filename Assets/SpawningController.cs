@@ -27,7 +27,7 @@ public class SpawningController : MonoBehaviour
 
         GameObject newEnemy = Instantiate(enemy);
         newEnemy.transform.position = position;
-        newEnemy.GetComponent<EnemigoController>().SetTarget(player);
+        newEnemy.GetComponent<BasicRedEnemyController>().SetTarget(player);
         newEnemy.transform.parent = transform;
     }
 

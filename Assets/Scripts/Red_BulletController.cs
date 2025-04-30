@@ -4,9 +4,9 @@ public class Red_BulletController : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
 
-    [SerializeField] private EnemigoController EnemyController;
-
     private PlayerController playerController;
+
+    private EnemigoController enemigoController;
 
     private void Start()
     {
@@ -25,7 +25,8 @@ public class Red_BulletController : MonoBehaviour
                 }
             case "Red_Enemy":
                 {
-                    EnemyController.TakeDamage(playerController.Damage);
+                    enemigoController = collision.gameObject.GetComponent<EnemigoController>();
+                    enemigoController.TakeDamage(playerController.Damage);
                     Destroy(gameObject);
                     break;
                 }
