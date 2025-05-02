@@ -8,6 +8,7 @@ TagManager:
   - Red_Enemy
   - Blue_Bullet
   - Blue_Enemy
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -44,6 +45,24 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: TileMap
+    uniqueID: 2705492747
+    locked: 0
+  - name: Decor
+    uniqueID: 1760497025
+    locked: 0
+  - name: Enemy
+    uniqueID: 259197195
+    locked: 0
+  - name: Bullet
+    uniqueID: 2823971005
+    locked: 0
+  - name: Player
+    uniqueID: 3286013207
+    locked: 0
+  - name: Weapon
+    uniqueID: 2427463217
     locked: 0
   m_RenderingLayers:
   - Default
