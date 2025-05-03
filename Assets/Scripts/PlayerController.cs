@@ -24,8 +24,6 @@ public class PlayerController : MonoBehaviour
     public int DamageLvl = 1;
     public int GreedLvl = 1;
     public int CadenceLvl = 1;
-    public int moveSpeedLvl = 1;
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -114,17 +112,6 @@ public class PlayerController : MonoBehaviour
                 Cadence = Cadence + Cadence * 0.15;
                 CadenceLvl++;
                 Debug.Log(Cadence);
-                break;
-            //Speed
-            case 5:
-                if (moveSpeed < 10)
-                {
-                    moveSpeed = moveSpeed + 1/2;
-                    moveSpeedLvl++;
-                    Debug.Log(moveSpeed);
-                }
-                break;
-            default: 
                 break;
         }
     }

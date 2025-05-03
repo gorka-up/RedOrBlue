@@ -9,7 +9,6 @@ public class UpgradeMenu : MonoBehaviour
     [SerializeField] GameObject DamageAmount;
     [SerializeField] GameObject GreedAmount;
     [SerializeField] GameObject CadenceAmount;
-    [SerializeField] GameObject SpeedAmount;
     [SerializeField] GameObject XPAmount;
 
     public GameObject upgradeMenu;
@@ -83,15 +82,6 @@ public class UpgradeMenu : MonoBehaviour
         }
     }
 
-    public void SpeedUpgrade()
-    {
-        if (playerController.XP >= 100 * playerController.moveSpeedLvl && playerController.moveSpeed < 10)
-        {
-            playerController.moveSpeed = playerController.moveSpeed - 100 * playerController.moveSpeedLvl;
-            playerController.LevelUp(5);
-        }
-    }
-
     void SetStats()
     {
         HealthAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.MaxHealth;
@@ -99,7 +89,6 @@ public class UpgradeMenu : MonoBehaviour
         DamageAmount.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.RoundToInt((float)playerController.Damage);
         GreedAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Greed;
         CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.Round((float)playerController.Cadence);
-        SpeedAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.moveSpeed;
         XPAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.XP;
     }
 }
