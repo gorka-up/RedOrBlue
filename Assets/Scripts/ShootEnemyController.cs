@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class ShootEnemyController : MonoBehaviour
 {
-    [SerializeField] Transform objetivo;
-    GameObject targetGameObject;
-
     Rigidbody rb;
 
     //[SerializeField] private double Health;
@@ -16,19 +13,17 @@ public class ShootEnemyController : MonoBehaviour
 
     [SerializeField] float ViewDistance;
 
+    EnemigoController enemigoController;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
-    }
-    public void SetTarget(GameObject target)
-    {
-        targetGameObject = target;
-        objetivo = target.transform;
+        enemigoController = GetComponent<EnemigoController>();
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject == targetGameObject)
+        if (collision.gameObject == enemigoController.targetGameObject)
         {
             Attack();
         }
@@ -39,7 +34,7 @@ public class ShootEnemyController : MonoBehaviour
     }
     void Update()
     {
-        float distance = Vector2.Distance(transform.position, objetivo.position);
+        float distance = Vector2.Distance(transform.position, enemigoController.objetivo.position);
         if (distance < ViewDistance)
         {
             bulletTimer = bulletTimer + Time.deltaTime;

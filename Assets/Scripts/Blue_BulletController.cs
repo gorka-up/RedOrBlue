@@ -4,6 +4,16 @@ public class BLue_BulletController : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
 
+    private PlayerController playerController;
+
+    private EnemigoController enemigoController;
+
+    private void Start()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        playerController = player.GetComponent<PlayerController>();
+    }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         switch(collision.gameObject.tag)
@@ -15,7 +25,8 @@ public class BLue_BulletController : MonoBehaviour
                 }
             case "Blue_Enemy":
                 {
-                    //other.GameObject.GetComponent<EnemigoController>().TakeDamage(damage);
+                    enemigoController = collision.gameObject.GetComponent<EnemigoController>();
+                    enemigoController.TakeDamage(playerController.Damage);
                     Destroy(gameObject);
                     break;
                 }
