@@ -1,9 +1,12 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawningController : MonoBehaviour
 {
-    [SerializeField] GameObject enemy;
+    [SerializeField] GameObject red_enemy;
+    [SerializeField] GameObject blue_enemy;
+    [SerializeField] List<GameObject> enemies;
     [SerializeField] Vector2 spawningArea;
     [SerializeField] float spawningTimer;
     [SerializeField] GameObject player;
@@ -21,13 +24,17 @@ public class SpawningController : MonoBehaviour
 
     private void SpawnEnemy()
     {
+        //enemy
+        int random = UnityEngine.Random.Range(0, enemies.Count);
+        GameObject newEnemy = Instantiate(enemies[random]);
+
+        //GameObject newEnemy = (UnityEngine.Random.value < 0.5f) ? Instantiate(red_enemy) : Instantiate(blue_enemy);
+
+        //position
         Vector3 position = GenerateRandomPosition();
-
         position += player.transform.position;
-
-        GameObject newEnemy = Instantiate(enemy);
         newEnemy.transform.position = position;
-        newEnemy.GetComponent<BasicRedEnemyController>().SetTarget(player);
+        newEnemy.GetComponent<EnemigoController>().SetTarget(player);
         newEnemy.transform.parent = transform;
     }
 
