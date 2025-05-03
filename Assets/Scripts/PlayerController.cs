@@ -113,6 +113,9 @@ public class PlayerController : MonoBehaviour
                 CadenceLvl++;
                 Debug.Log(Cadence);
                 break;
+            case 5:
+                Health = Health + MaxHealth * 2/10;
+                break;
         }
     }
 }
