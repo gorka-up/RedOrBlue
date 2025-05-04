@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 mousePosition;
     [SerializeField] private WeaponController weaponController;
+    private bool canShoot;
+    private double nextShoot;
     
     //estadisticas del jugador
     [SerializeField] public int Health;
@@ -33,6 +35,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         ProcessInputs();
+
+        if (!canShoot && Time.time >= nextShoot)
+        {
+            canShoot = true;
+        }
     }
 
     //Fisicas Aqui
@@ -47,9 +54,11 @@ public class PlayerController : MonoBehaviour
         movementVector.x = Input.GetAxisRaw("Horizontal");
         movementVector.y = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButton(0) && canShoot)
         {
             weaponController.Fire();
+            canShoot = false;
+            nextShoot = Time.time + 1/Cadence;
         }
 
         if (Input.GetMouseButtonDown(1) && Time.timeScale != 0)
@@ -114,7 +123,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(Cadence);
                 break;
             case 5:
-                Health = Health + MaxHealth * 2/10;
+                Mathf.Clamp(Health + MaxHealth * 0.2f, 0, MaxHealth);
                 break;
         }
     }
