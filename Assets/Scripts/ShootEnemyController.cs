@@ -42,6 +42,10 @@ public class ShootEnemyController : MonoBehaviour
                 Shoot();
             }
         }
+        else 
+        {
+            transform.position = Vector2.MoveTowards(transform.position, enemigoController.objetivo.position, enemigoController.Speed * Time.deltaTime);
+        }
     }
     void Shoot()
     {
