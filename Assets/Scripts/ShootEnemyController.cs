@@ -12,11 +12,17 @@ public class ShootEnemyController : MonoBehaviour
     [SerializeField] float ViewDistance;
 
     EnemigoController enemigoController;
+    PlayerController playerController;
+    [SerializeField] GameObject player;
+
+
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         enemigoController = GetComponent<EnemigoController>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerController = player.GetComponent<PlayerController>();
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -28,7 +34,7 @@ public class ShootEnemyController : MonoBehaviour
     }
     private void Attack()
     {
-        Debug.Log("Attacking the player");
+        playerController.GetHurt();
     }
     void Update()
     {
