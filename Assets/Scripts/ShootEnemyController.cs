@@ -4,8 +4,6 @@ public class ShootEnemyController : MonoBehaviour
 {
     Rigidbody rb;
 
-    //[SerializeField] private double Health;
-
     public GameObject bullet;
     public Transform bulletPos;
     private float bulletTimer;

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour 
 {
@@ -11,6 +12,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private WeaponController weaponController;
     private bool canShoot;
     private double nextShoot;
+
+    private float nextDamage;
+    private float invulnerability = 1f;
     
     //estadisticas del jugador
     [SerializeField] public int Health;
@@ -80,16 +84,22 @@ public class PlayerController : MonoBehaviour
     //hacerse daño
     public void GetHurt()
     {
-        Health--;
-        Debug.Log(Health);
-        if (Health <= 0)
+        if  (Time.time > nextDamage)
         {
-            Muerto();
+            nextDamage = Time.time + invulnerability;
+            Health--;
+            Debug.Log(Health);
+            if (Health <= 0)
+            {
+                Muerto();
+            }
         }
+        
     }
     //morirse
     void Muerto()
-    { 
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
    

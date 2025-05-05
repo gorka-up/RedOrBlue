@@ -9,11 +9,15 @@ public class EnemigoController : MonoBehaviour
 
     [SerializeField] public Transform objetivo;
     public GameObject targetGameObject;
+    private PlayerController playerController;
 
+    private void Start()
+    {
+        playerController = targetGameObject.GetComponent<PlayerController>();
+    }
     public void TakeDamage(double damage)
     {
         Health -= damage;
-        Debug.Log(Health);
         if (Health <= 0)
         {
             DropXP();
@@ -23,6 +27,7 @@ public class EnemigoController : MonoBehaviour
     void DropXP()
     {
         //Aqui suelta los puntos
+        playerController.XP +=(int)(100.0 * playerController.Greed);
         // Verifica si es una instancia en escena
         Destroy(gameObject);
     }

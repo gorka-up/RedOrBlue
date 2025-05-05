@@ -6,10 +6,16 @@ public class BasicEnemyController : MonoBehaviour
 
     EnemigoController enemigoController;
 
+    [SerializeField] GameObject player;
+    PlayerController playerController;
+
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         enemigoController = GetComponent<EnemigoController>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerController = player.GetComponent<PlayerController>();
     }
 
     void FixedUpdate()
@@ -18,7 +24,7 @@ public class BasicEnemyController : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, enemigoController.objetivo.position, enemigoController.Speed * Time.deltaTime);
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject == enemigoController.targetGameObject)
         {
@@ -29,6 +35,6 @@ public class BasicEnemyController : MonoBehaviour
 
     private void Attack()
     {
-        Debug.Log("Attacking the player");
+        playerController.GetHurt();
     }
 }
