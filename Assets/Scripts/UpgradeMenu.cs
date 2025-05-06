@@ -11,6 +11,12 @@ public class UpgradeMenu : MonoBehaviour
     [SerializeField] GameObject CadenceAmount;
     [SerializeField] GameObject XPAmount;
 
+    [SerializeField] GameObject HealthPrice;
+    [SerializeField] GameObject DamagePrice;
+    [SerializeField] GameObject GreedPrice;
+    [SerializeField] GameObject CadencePrice;
+
+
     public GameObject upgradeMenu;
     public PlayerController playerController;
     public void Pause()
@@ -84,11 +90,16 @@ public class UpgradeMenu : MonoBehaviour
 
     void SetStats()
     {
-        HealthAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.MaxHealth;
-        DamageAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Damage;
-        DamageAmount.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.RoundToInt((float)playerController.Damage);
-        GreedAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Greed;
-        CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.Round((float)playerController.Cadence);
-        XPAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.XP;
+        HealthAmount.GetComponent<TMPro.TMP_Text>().text = "Health: " + playerController.Health + "/" + playerController.MaxHealth;
+        DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + playerController.Damage;
+        DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + Mathf.RoundToInt((float)playerController.Damage);
+        GreedAmount.GetComponent<TMPro.TMP_Text>().text = "Greed: " + playerController.Greed;
+        CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + playerController.Cadence;
+        XPAmount.GetComponent<TMPro.TMP_Text>().text = "XP: " + playerController.XP;
+
+        HealthPrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.HealthLvl;
+        DamagePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.DamageLvl;
+        GreedPrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.GreedLvl;
+        CadencePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.CadenceLvl;
     }
 }
