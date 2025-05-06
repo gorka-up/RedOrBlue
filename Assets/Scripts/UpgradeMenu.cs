@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using System.Xml.XPath;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UpgradeMenu : MonoBehaviour
@@ -50,6 +51,11 @@ public class UpgradeMenu : MonoBehaviour
             }
         }
         SetStats();
+    }
+
+    public void Quit()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void HealthUpgrade()
