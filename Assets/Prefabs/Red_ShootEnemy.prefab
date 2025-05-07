@@ -138,6 +138,7 @@ MonoBehaviour:
   bullet: {fileID: 2998779844393007864, guid: 75b6fef1af6da8d499161262c199394c, type: 3}
   bulletPos: {fileID: 4699055458371327300}
   ViewDistance: 7
+  player: {fileID: 0}
 --- !u!50 &5531330051131080075
 Rigidbody2D:
   serializedVersion: 5
@@ -217,3 +218,4 @@ MonoBehaviour:
   Speed: 1.5
   objetivo: {fileID: 0}
   targetGameObject: {fileID: 0}
+  particlePrefab: {fileID: 3066431742989069782, guid: 38f067e893cf46d44930795098d8c72b, type: 3}
