@@ -4,7 +4,7 @@ using UnityEngine;
 public class EnemigoController : MonoBehaviour
 {
     [SerializeField] public double Health = 10;
-    [SerializeField] public float Speed = 1.5f;
+    [SerializeField] public float Speed = 3.5f;
 
     [SerializeField] public Transform objetivo;
     public GameObject targetGameObject;

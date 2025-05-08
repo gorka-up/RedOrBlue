@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
     {
         movementVector.x = Input.GetAxisRaw("Horizontal");
         movementVector.y = Input.GetAxisRaw("Vertical");
+        movementVector.Normalize();
 
         if(Input.GetMouseButton(0) && canShoot)
         {
