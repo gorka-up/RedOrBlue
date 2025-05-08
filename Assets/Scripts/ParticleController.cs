@@ -15,7 +15,7 @@ public class ParticleController : MonoBehaviour
         deltatime += Time.deltaTime;
         if(deltatime > 1)
         {
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
     void RotationForParticles()
