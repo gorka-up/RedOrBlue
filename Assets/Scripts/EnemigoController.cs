@@ -29,8 +29,7 @@ public class EnemigoController : MonoBehaviour
         //Aqui suelta los puntos
         playerController.XP +=(int)(100.0 * playerController.Greed);
         // Verifica si es una instancia en escena
-        GameObject particle = Instantiate(particlePrefab, transform.position, Quaternion.identity);
-        particle.GetComponent<ParticleController>().enemigoController = this;
+        Instantiate(particlePrefab, transform.position, Quaternion.identity);
 
         Destroy(gameObject);
     }

@@ -8,6 +8,8 @@ public class Red_BulletController : MonoBehaviour
 
     private EnemigoController enemigoController;
 
+    [SerializeField] public GameObject particlePrefab;
+
     private void Start()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -20,11 +22,13 @@ public class Red_BulletController : MonoBehaviour
         {
             case "Wall":
                 {
+                    Instantiate(particlePrefab, transform.position, Quaternion.identity);
                     Destroy(gameObject);
                     break;
                 }
             case "Red_Enemy":
                 {
+                    Instantiate(particlePrefab, transform.position, Quaternion.identity);
                     enemigoController = collision.gameObject.GetComponent<EnemigoController>();
                     enemigoController.TakeDamage(playerController.Damage);
                     Destroy(gameObject);
