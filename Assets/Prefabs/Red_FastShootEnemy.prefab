@@ -139,6 +139,7 @@ MonoBehaviour:
   bulletPos: {fileID: 4699055458371327300}
   ViewDistance: 4
   shootTimer: 0.5
+  bulletForce: 4
   player: {fileID: 0}
 --- !u!50 &5531330051131080075
 Rigidbody2D:

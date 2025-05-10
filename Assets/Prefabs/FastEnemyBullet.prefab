@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8391018148332485127}
   - component: {fileID: -6045724741169115138}
   m_Layer: 0
-  m_Name: EnemyBullet
+  m_Name: FastEnemyBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d03817cc66f09de4f8180c52605a8ae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletForce: 4
+  bulletForce: 6
 --- !u!58 &-6045724741169115138
 CircleCollider2D:
   m_ObjectHideFlags: 0
