@@ -11,6 +11,9 @@ public class EnemigoController : MonoBehaviour
     private PlayerController playerController;
 
     [SerializeField] public GameObject particlePrefab;
+
+    [SerializeField] public GameObject soundEfect;
+
     private void Start()
     {
         playerController = targetGameObject.GetComponent<PlayerController>();
@@ -26,9 +29,10 @@ public class EnemigoController : MonoBehaviour
 
     void DropXP()
     {
+        Instantiate(soundEfect);
         //Aqui suelta los puntos
         playerController.XP +=(int)(100.0 * playerController.Greed);
-        // Verifica si es una instancia en escena
+
         Instantiate(particlePrefab, transform.position, Quaternion.identity);
 
         Destroy(gameObject);

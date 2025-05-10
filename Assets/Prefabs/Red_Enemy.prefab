@@ -108,6 +108,7 @@ MonoBehaviour:
   objetivo: {fileID: 0}
   targetGameObject: {fileID: 0}
   particlePrefab: {fileID: 3066431742989069782, guid: 38f067e893cf46d44930795098d8c72b, type: 3}
+  soundEfect: {fileID: 8888426827565311384, guid: c12ae677843dcf14ea52089e8ee365b2, type: 3}
 --- !u!50 &1643306411721805224
 Rigidbody2D:
   serializedVersion: 5
