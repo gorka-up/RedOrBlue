@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2461279265312248130}
   - component: {fileID: 7126515112645442380}
   - component: {fileID: -8949111153392827475}
-  - component: {fileID: 4432104071508591042}
   m_Layer: 0
   m_Name: Blue_Bullet
   m_TagString: Blue_Bullet
@@ -168,15 +167,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 2461279265312248130}
   particlePrefab: {fileID: 3066431742989069782, guid: 86581dfc1b8f9e34286e97a484579657, type: 3}
---- !u!114 &4432104071508591042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4094965450902083620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d63fead90109b7f46b545b017be639b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
