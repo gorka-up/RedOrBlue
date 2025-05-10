@@ -143,7 +143,7 @@ public class UpgradeMenu : MonoBehaviour
         Red_DamagePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Red_DamageLvl;
         Red_CadencePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Red_CadenceLvl;
 
-        Blue_DamagePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Red_DamageLvl;
-        Blue_CadencePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Red_CadenceLvl;
+        Blue_DamagePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Blue_DamageLvl;
+        Blue_CadencePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Blue_CadenceLvl;
     }
 }
