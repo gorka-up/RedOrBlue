@@ -10,6 +10,7 @@ public class ShootEnemyController : MonoBehaviour
 
 
     [SerializeField] float ViewDistance;
+    [SerializeField] float shootTimer;
 
     EnemigoController enemigoController;
     PlayerController playerController;
@@ -42,7 +43,7 @@ public class ShootEnemyController : MonoBehaviour
         if (distance < ViewDistance)
         {
             bulletTimer = bulletTimer + Time.deltaTime;
-            if (bulletTimer > 2)
+            if (bulletTimer > shootTimer)
             {
                 bulletTimer = 0;
                 Shoot();
