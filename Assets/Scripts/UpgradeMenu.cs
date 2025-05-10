@@ -7,15 +7,23 @@ using UnityEngine.UI;
 public class UpgradeMenu : MonoBehaviour
 {
     [SerializeField] GameObject HealthAmount;
-    [SerializeField] GameObject DamageAmount;
     [SerializeField] GameObject GreedAmount;
-    [SerializeField] GameObject CadenceAmount;
     [SerializeField] GameObject XPAmount;
 
+    [SerializeField] GameObject Red_DamageAmount;
+    [SerializeField] GameObject Red_CadenceAmount;
+
+    [SerializeField] GameObject Blue_DamageAmount;
+    [SerializeField] GameObject Blue_CadenceAmount;
+
     [SerializeField] GameObject HealthPrice;
-    [SerializeField] GameObject DamagePrice;
     [SerializeField] GameObject GreedPrice;
-    [SerializeField] GameObject CadencePrice;
+
+    [SerializeField] GameObject Red_DamagePrice;
+    [SerializeField] GameObject Red_CadencePrice;
+
+    [SerializeField] GameObject Blue_DamagePrice;
+    [SerializeField] GameObject Blue_CadencePrice;
 
 
     public GameObject upgradeMenu;
@@ -67,12 +75,21 @@ public class UpgradeMenu : MonoBehaviour
         }
     }
 
-    public void DamageUpgrade()
+    public void RedDamageUpgrade()
     {
-        if (playerController.XP >= 100 * playerController.DamageLvl)
+        if (playerController.XP >= 100 * playerController.Red_DamageLvl)
         {
-            playerController.XP = playerController.XP - 100 * playerController.DamageLvl;
+            playerController.XP = playerController.XP - 100 * playerController.Red_DamageLvl;
             playerController.LevelUp(2);
+        }
+    }
+
+    public void BlueDamageUpgrade()
+    {
+        if (playerController.XP >= 100 * playerController.Blue_DamageLvl)
+        {
+            playerController.XP = playerController.XP - 100 * playerController.Blue_DamageLvl;
+            playerController.LevelUp(6);
         }
     }
 
@@ -85,27 +102,48 @@ public class UpgradeMenu : MonoBehaviour
         }
     }
 
-    public void CadenceUpgrade()
+    public void RedCadenceUpgrade()
     {
-        if (playerController.XP >= 100 * playerController.CadenceLvl)
+        if (playerController.XP >= 100 * playerController.Red_CadenceLvl)
         {
-            playerController.XP = playerController.XP - 100 * playerController.CadenceLvl;
+            playerController.XP = playerController.XP - 100 * playerController.Red_CadenceLvl;
             playerController.LevelUp(4);
+        }
+    }
+
+    public void BlueCadenceUpgrade()
+    {
+        if (playerController.XP >= 100 * playerController.Blue_CadenceLvl)
+        {
+            playerController.XP = playerController.XP - 100 * playerController.Blue_CadenceLvl;
+            playerController.LevelUp(7);
         }
     }
 
     void SetStats()
     {
         HealthAmount.GetComponent<TMPro.TMP_Text>().text = "Health: " + playerController.Health + "/" + playerController.MaxHealth;
-        DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + playerController.Damage;
-        DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + Mathf.RoundToInt((float)playerController.Damage);
         GreedAmount.GetComponent<TMPro.TMP_Text>().text = "Greed: " + playerController.Greed;
-        CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + playerController.Cadence;
+
+        Red_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Red Damage: " + playerController.Red_Damage;
+        Red_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Red Damage: " + Mathf.RoundToInt((float)playerController.Red_Damage);
+        Red_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Red Cadence: " + playerController.Red_Cadence;
+        Red_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Red Cadence: " + Mathf.RoundToInt((float)playerController.Red_Cadence);
+
+        Blue_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Blue Damage: " + playerController.Blue_Damage;
+        Blue_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Blue Damage: " + Mathf.RoundToInt((float)playerController.Blue_Damage);
+        Blue_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Blue Cadence: " + playerController.Blue_Cadence;
+        Blue_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Blue Cadence: " + Mathf.RoundToInt((float)playerController.Blue_Cadence);
+        
         XPAmount.GetComponent<TMPro.TMP_Text>().text = "XP: " + playerController.XP;
 
         HealthPrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.HealthLvl;
-        DamagePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.DamageLvl;
         GreedPrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.GreedLvl;
-        CadencePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.CadenceLvl;
+
+        Red_DamagePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Red_DamageLvl;
+        Red_CadencePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Red_CadenceLvl;
+
+        Blue_DamagePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Red_DamageLvl;
+        Blue_CadencePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Red_CadenceLvl;
     }
 }

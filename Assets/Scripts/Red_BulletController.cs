@@ -30,7 +30,7 @@ public class Red_BulletController : MonoBehaviour
                 {
                     Instantiate(particlePrefab, transform.position, Quaternion.identity);
                     enemigoController = collision.gameObject.GetComponent<EnemigoController>();
-                    enemigoController.TakeDamage(playerController.Damage);
+                    enemigoController.TakeDamage(playerController.Red_Damage);
                     Destroy(gameObject);
                     break;
                 }
