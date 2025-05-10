@@ -19,27 +19,17 @@ public class PlayerController : MonoBehaviour
     //estadisticas del jugador
     [SerializeField] public int Health;
     [SerializeField] public int MaxHealth;
-    [SerializeField] public float moveSpeed;
+    [SerializeField] public double Damage;
     [SerializeField] public double Greed;
-
-    [SerializeField] public double Red_Damage;
-    [SerializeField] public double Red_Cadence;
-
-    [SerializeField] public double Blue_Damage;
-    [SerializeField] public double Blue_Cadence;
+    [SerializeField] public double Cadence;
+    [SerializeField] public float moveSpeed;
 
     [SerializeField] public int XP;
 
     public int HealthLvl = 1;
+    public int DamageLvl = 1;
     public int GreedLvl = 1;
-
-    public int Red_DamageLvl = 1;
-    public int Red_CadenceLvl = 1;
-
-    public int Blue_DamageLvl = 1;
-    public int Blue_CadenceLvl = 1;
-
-
+    public int CadenceLvl = 1;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -73,16 +63,7 @@ public class PlayerController : MonoBehaviour
         {
             weaponController.Fire();
             canShoot = false;
-            if (!weaponController.mode)
-            {
-                nextShoot = Time.time + 1 / Red_Cadence;
-                Debug.Log("Rojo");
-            }
-            else if (weaponController.mode) 
-            {
-                nextShoot = Time.time + 1 / Blue_Cadence;
-                Debug.Log("Azul");
-            }
+            nextShoot = Time.time + 1/Cadence;
         }
 
         if (Input.GetMouseButtonDown(1) && Time.timeScale != 0)
@@ -132,34 +113,28 @@ public class PlayerController : MonoBehaviour
                 Health++;
                 MaxHealth++;
                 HealthLvl++;
+                Debug.Log(MaxHealth);
                 break;
-            //Red_Damage
+            //Damage
             case 2:
-                Red_Damage = Red_Damage + Red_Damage * 0.2;
-                Red_DamageLvl++;
+                Damage = Damage + Damage * 0.2;
+                DamageLvl++;
+                Debug.Log(Damage);
                 break;
             //Greed
             case 3:
                 Greed = Greed + 0.3;
                 GreedLvl++;
+                Debug.Log(Greed);
                 break;
-            //Red_Cadence
+            //Cadence
             case 4:
-                Red_Cadence = Red_Cadence + Red_Cadence * 0.15;
-                Red_CadenceLvl++;
+                Cadence = Cadence + Cadence * 0.15;
+                CadenceLvl++;
+                Debug.Log(Cadence);
                 break;
             case 5:
                 Mathf.Clamp(Health + MaxHealth * 0.2f, 0, MaxHealth);
-                break;
-            //Blue_Damage
-            case 6:
-                Blue_Damage = Blue_Damage + Blue_Damage * 0.2;
-                Blue_DamageLvl++;
-                break;
-            //Blue_Cadence
-            case 7:
-                Blue_Cadence = Blue_Cadence + Blue_Cadence * 0.15;
-                Blue_CadenceLvl++;
                 break;
         }
     }
