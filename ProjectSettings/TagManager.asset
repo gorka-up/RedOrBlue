@@ -55,14 +55,14 @@ TagManager:
   - name: Walls
     uniqueID: 1510538855
     locked: 0
+  - name: Player
+    uniqueID: 3286013207
+    locked: 0
   - name: Enemy
     uniqueID: 259197195
     locked: 0
   - name: Bullet
     uniqueID: 2823971005
-    locked: 0
-  - name: Player
-    uniqueID: 3286013207
     locked: 0
   - name: Weapon
     uniqueID: 2427463217
