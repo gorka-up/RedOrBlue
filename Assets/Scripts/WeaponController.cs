@@ -1,4 +1,6 @@
+using NUnit.Framework.Constraints;
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class WeaponController : MonoBehaviour
@@ -11,6 +13,14 @@ public class WeaponController : MonoBehaviour
     [SerializeField] private float fireForce;
 
     public bool mode = false;
+
+    private float maxPitch = 1.25f;
+    private float minPitch = 1.05f;
+    AudioSource sound;
+    private void Start()
+    {
+        sound = transform.GetComponent<AudioSource>();
+    }
     public void Fire()
     {
         if (Time.timeScale != 0)
@@ -18,12 +28,16 @@ public class WeaponController : MonoBehaviour
             GameObject projectile;
             if (mode)
             {
-                transform.GetComponent<AudioSource>().Play();
+                sound.pitch = UnityEngine.Random.Range(minPitch, maxPitch);
+                sound.Play();
+
                 projectile = Instantiate(Blue_Bullet, firePoint.position, firePoint.rotation);
             }
             else
             {
-                transform.GetComponent<AudioSource>().Play();
+                sound.pitch = UnityEngine.Random.Range(minPitch, maxPitch);
+                sound.Play();
+                
                 projectile = Instantiate(Red_Bullet, firePoint.position, firePoint.rotation);
             }
             projectile.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
