@@ -41,10 +41,16 @@ public class PlayerController : MonoBehaviour
     public int Blue_DamageLvl = 1;
     public int Blue_CadenceLvl = 1;
 
+    public Sprite redSprite;
+    public Sprite blueSprite;
+
+    private SpriteRenderer spriteRenderer;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         movementVector = new Vector3();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -54,6 +60,15 @@ public class PlayerController : MonoBehaviour
         if (!canShoot && Time.time >= nextShoot)
         {
             canShoot = true;
+        }
+
+        if (weaponController.mode)
+        {
+            spriteRenderer.sprite = blueSprite;
+        }
+        else
+        {
+            spriteRenderer.sprite = redSprite;
         }
     }
 
