@@ -52,6 +52,9 @@ TagManager:
   - name: Decor
     uniqueID: 1760497025
     locked: 0
+  - name: collisionDecor
+    uniqueID: 2413019777
+    locked: 0
   - name: Walls
     uniqueID: 1510538855
     locked: 0
