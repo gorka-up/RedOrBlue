@@ -17,9 +17,15 @@ public class WeaponController : MonoBehaviour
     private float maxPitch = 1.25f;
     private float minPitch = 1.05f;
     AudioSource sound;
+
+    public Sprite redSprite;
+    public Sprite blueSprite;
+
+    private SpriteRenderer spriteRenderer;
     private void Start()
     {
         sound = transform.GetComponent<AudioSource>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     public void Fire()
     {
@@ -50,10 +56,12 @@ public class WeaponController : MonoBehaviour
         if (mode)
         {
             mode = false;
+            spriteRenderer.sprite = redSprite;
         }
         else
         {
             mode = true;
+            spriteRenderer.sprite = blueSprite;
         }
     }
 }
