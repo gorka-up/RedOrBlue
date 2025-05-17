@@ -14,6 +14,8 @@ public class EnemigoController : MonoBehaviour
 
     [SerializeField] public GameObject soundEfect;
 
+    public bool damageTaken;
+
     private void Start()
     {
         playerController = targetGameObject.GetComponent<PlayerController>();
@@ -21,6 +23,7 @@ public class EnemigoController : MonoBehaviour
     public void TakeDamage(double damage)
     {
         Health -= damage;
+        damageTaken = true;
         if (Health <= 0)
         {
             DropXP();
