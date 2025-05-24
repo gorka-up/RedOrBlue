@@ -1,0 +1,3668 @@
+fileFormatVersion: 2
+guid: 905a35e43d08792439db27f2bfc56514
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4752146800825361230
+    second: tilesheetGordo_0
+  - first:
+      213: 3501798224300392739
+    second: tilesheetGordo_1
+  - first:
+      213: -8135587680216834611
+    second: tilesheetGordo_2
+  - first:
+      213: -2652901104531796062
+    second: tilesheetGordo_3
+  - first:
+      213: -5614002099513374214
+    second: tilesheetGordo_4
+  - first:
+      213: 2796039797189935342
+    second: tilesheetGordo_5
+  - first:
+      213: -3491069653753185874
+    second: tilesheetGordo_6
+  - first:
+      213: 5030312139490571044
+    second: tilesheetGordo_7
+  - first:
+      213: 4352966930275160412
+    second: tilesheetGordo_8
+  - first:
+      213: -1169298520049186411
+    second: tilesheetGordo_9
+  - first:
+      213: -1258576300122945230
+    second: tilesheetGordo_10
+  - first:
+      213: -6960725063882598462
+    second: tilesheetGordo_11
+  - first:
+      213: 333108332935860530
+    second: tilesheetGordo_12
+  - first:
+      213: 8948036481813318208
+    second: tilesheetGordo_13
+  - first:
+      213: 6763467776981316298
+    second: tilesheetGordo_14
+  - first:
+      213: -5182809313801784736
+    second: tilesheetGordo_15
+  - first:
+      213: 1248914333418879830
+    second: tilesheetGordo_16
+  - first:
+      213: -3492700578314965869
+    second: tilesheetGordo_17
+  - first:
+      213: -7851325845947683109
+    second: tilesheetGordo_18
+  - first:
+      213: -65856924597896902
+    second: tilesheetGordo_19
+  - first:
+      213: -3813853856139806382
+    second: tilesheetGordo_20
+  - first:
+      213: 2971039317416914042
+    second: tilesheetGordo_21
+  - first:
+      213: 7216510079796823164
+    second: tilesheetGordo_22
+  - first:
+      213: -8684081691115007061
+    second: tilesheetGordo_23
+  - first:
+      213: -5434485145792752966
+    second: tilesheetGordo_24
+  - first:
+      213: 6690762864289152432
+    second: tilesheetGordo_25
+  - first:
+      213: 5991964811101739608
+    second: tilesheetGordo_26
+  - first:
+      213: -6444392280292118099
+    second: tilesheetGordo_27
+  - first:
+      213: -6478075058088752537
+    second: tilesheetGordo_28
+  - first:
+      213: -2813231316603722630
+    second: tilesheetGordo_29
+  - first:
+      213: 5538375599354293267
+    second: tilesheetGordo_30
+  - first:
+      213: -4615859140826633925
+    second: tilesheetGordo_31
+  - first:
+      213: -5335233731828163340
+    second: tilesheetGordo_32
+  - first:
+      213: 74639793999911608
+    second: tilesheetGordo_33
+  - first:
+      213: -3515090710158539037
+    second: tilesheetGordo_34
+  - first:
+      213: -5496230539883400380
+    second: tilesheetGordo_35
+  - first:
+      213: 4168490523044035253
+    second: tilesheetGordo_36
+  - first:
+      213: 4615751791076902491
+    second: tilesheetGordo_37
+  - first:
+      213: 506222279066634267
+    second: tilesheetGordo_38
+  - first:
+      213: 4134154849451234935
+    second: tilesheetGordo_39
+  - first:
+      213: 1408652722284148557
+    second: tilesheetGordo_40
+  - first:
+      213: 1338865171729582239
+    second: tilesheetGordo_41
+  - first:
+      213: 5801976526123258213
+    second: tilesheetGordo_42
+  - first:
+      213: -688146702815012915
+    second: tilesheetGordo_43
+  - first:
+      213: 5913156996999808636
+    second: tilesheetGordo_44
+  - first:
+      213: -1733789247240613186
+    second: tilesheetGordo_45
+  - first:
+      213: 7112554910577292216
+    second: tilesheetGordo_46
+  - first:
+      213: 5741184548519683419
+    second: tilesheetGordo_47
+  - first:
+      213: -2557934253111274852
+    second: tilesheetGordo_48
+  - first:
+      213: -1825294781664293808
+    second: tilesheetGordo_49
+  - first:
+      213: 8774519350153371223
+    second: tilesheetGordo_50
+  - first:
+      213: -8136723800304903778
+    second: tilesheetGordo_51
+  - first:
+      213: 6132578473573074885
+    second: tilesheetGordo_52
+  - first:
+      213: 2948261524154085142
+    second: tilesheetGordo_53
+  - first:
+      213: 3635666839352255094
+    second: tilesheetGordo_54
+  - first:
+      213: -5848230969130123310
+    second: tilesheetGordo_55
+  - first:
+      213: 1953145114110111503
+    second: tilesheetGordo_56
+  - first:
+      213: 3118986650163597605
+    second: tilesheetGordo_57
+  - first:
+      213: 5176647801053216554
+    second: tilesheetGordo_58
+  - first:
+      213: 1379120085542199342
+    second: tilesheetGordo_59
+  - first:
+      213: -6696752252999736147
+    second: tilesheetGordo_60
+  - first:
+      213: -7860901422037249005
+    second: tilesheetGordo_61
+  - first:
+      213: 1285709111185982718
+    second: tilesheetGordo_62
+  - first:
+      213: 8346274844007724164
+    second: tilesheetGordo_63
+  - first:
+      213: 4275210096975730727
+    second: tilesheetGordo_64
+  - first:
+      213: -1564303264859110445
+    second: tilesheetGordo_65
+  - first:
+      213: 5481585763788551847
+    second: tilesheetGordo_66
+  - first:
+      213: 8243663884974529117
+    second: tilesheetGordo_67
+  - first:
+      213: -1035789910077889751
+    second: tilesheetGordo_68
+  - first:
+      213: 6662117108435670841
+    second: tilesheetGordo_69
+  - first:
+      213: 5763181471357599307
+    second: tilesheetGordo_70
+  - first:
+      213: -7037507925414177817
+    second: tilesheetGordo_71
+  - first:
+      213: -6924107246146368923
+    second: tilesheetGordo_72
+  - first:
+      213: -6682268277333138029
+    second: tilesheetGordo_73
+  - first:
+      213: -2629979424572619779
+    second: tilesheetGordo_74
+  - first:
+      213: 4593949808072037046
+    second: tilesheetGordo_75
+  - first:
+      213: -4185761124332237093
+    second: tilesheetGordo_76
+  - first:
+      213: -7468780629652536679
+    second: tilesheetGordo_77
+  - first:
+      213: -1015572522645247906
+    second: tilesheetGordo_78
+  - first:
+      213: 2344000146681029963
+    second: tilesheetGordo_79
+  - first:
+      213: -5790664088290332943
+    second: tilesheetGordo_80
+  - first:
+      213: -8462449942264108111
+    second: tilesheetGordo_81
+  - first:
+      213: 5866076888413337467
+    second: tilesheetGordo_82
+  - first:
+      213: 5978884691243460628
+    second: tilesheetGordo_83
+  - first:
+      213: -3540513594008728704
+    second: tilesheetGordo_84
+  - first:
+      213: 2900324882684634367
+    second: tilesheetGordo_85
+  - first:
+      213: -2491687400043474864
+    second: tilesheetGordo_86
+  - first:
+      213: 3279486676139974915
+    second: tilesheetGordo_87
+  - first:
+      213: -9215469576746276734
+    second: tilesheetGordo_88
+  - first:
+      213: -3533523328849639213
+    second: tilesheetGordo_89
+  - first:
+      213: -3404871325575228948
+    second: tilesheetGordo_90
+  - first:
+      213: -6371100854085556110
+    second: tilesheetGordo_91
+  - first:
+      213: 8835656803501505312
+    second: tilesheetGordo_92
+  - first:
+      213: -7495725906873937679
+    second: tilesheetGordo_93
+  - first:
+      213: 3839984230089449093
+    second: tilesheetGordo_94
+  - first:
+      213: -3721119363245856946
+    second: tilesheetGordo_95
+  - first:
+      213: 7814239568176758066
+    second: tilesheetGordo_96
+  - first:
+      213: 4362046669636835459
+    second: tilesheetGordo_97
+  - first:
+      213: -809125285273564443
+    second: tilesheetGordo_98
+  - first:
+      213: -7214622691530674563
+    second: tilesheetGordo_99
+  - first:
+      213: -1212671173991811594
+    second: tilesheetGordo_100
+  - first:
+      213: 73051411967271447
+    second: tilesheetGordo_101
+  - first:
+      213: 4497871707482447235
+    second: tilesheetGordo_102
+  - first:
+      213: 591472253858834716
+    second: tilesheetGordo_103
+  - first:
+      213: -9176661323287841585
+    second: tilesheetGordo_104
+  - first:
+      213: -3959434555318332301
+    second: tilesheetGordo_105
+  - first:
+      213: -369558630620776057
+    second: tilesheetGordo_106
+  - first:
+      213: 2604326835062447630
+    second: tilesheetGordo_107
+  - first:
+      213: 6347198866883378369
+    second: tilesheetGordo_108
+  - first:
+      213: 7856576186081051040
+    second: tilesheetGordo_109
+  - first:
+      213: -3573725903223447500
+    second: tilesheetGordo_110
+  - first:
+      213: 6700298067448353850
+    second: tilesheetGordo_111
+  - first:
+      213: 828012334591869805
+    second: tilesheetGordo_112
+  - first:
+      213: 7918634862374740029
+    second: tilesheetGordo_113
+  - first:
+      213: 7817842200932255676
+    second: tilesheetGordo_114
+  - first:
+      213: -5205500796709913477
+    second: tilesheetGordo_115
+  - first:
+      213: -6072876959762158419
+    second: tilesheetGordo_116
+  - first:
+      213: -8572191098320987145
+    second: tilesheetGordo_117
+  - first:
+      213: 1048879684151989484
+    second: tilesheetGordo_118
+  - first:
+      213: -6445417974370855337
+    second: tilesheetGordo_119
+  - first:
+      213: 8528719063378976474
+    second: tilesheetGordo_120
+  - first:
+      213: -79868864015298826
+    second: tilesheetGordo_121
+  - first:
+      213: 7318535785574322162
+    second: tilesheetGordo_122
+  - first:
+      213: -2109361369268924743
+    second: tilesheetGordo_123
+  - first:
+      213: -331730747834777732
+    second: tilesheetGordo_124
+  - first:
+      213: 3571198908893626263
+    second: tilesheetGordo_125
+  - first:
+      213: -7938247760827255332
+    second: tilesheetGordo_126
+  - first:
+      213: -127701135069430858
+    second: tilesheetGordo_127
+  - first:
+      213: 6166300309375383730
+    second: tilesheetGordo_128
+  - first:
+      213: -2295578533302897341
+    second: tilesheetGordo_129
+  - first:
+      213: -4624957620069738170
+    second: tilesheetGordo_130
+  - first:
+      213: 7078300188946169212
+    second: tilesheetGordo_131
+  - first:
+      213: -4921598258019173788
+    second: tilesheetGordo_132
+  - first:
+      213: 119435766414172962
+    second: tilesheetGordo_133
+  - first:
+      213: -8712729201467381990
+    second: tilesheetGordo_134
+  - first:
+      213: 4011936241412779089
+    second: tilesheetGordo_135
+  - first:
+      213: 1094367954383724732
+    second: tilesheetGordo_136
+  - first:
+      213: 283252772551778762
+    second: tilesheetGordo_137
+  - first:
+      213: -5467631108886947732
+    second: tilesheetGordo_138
+  - first:
+      213: -7655079636883880666
+    second: tilesheetGordo_139
+  - first:
+      213: -3750321908911364619
+    second: tilesheetGordo_140
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 62
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilesheetGordo_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea06a7adde597044ea98a71cac860b04
+      internalID: 1496620759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77da941cf858d99479c4ad80d302bca2
+      internalID: -692823302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9fa2580f7045e40982f567210dfe60
+      internalID: -783731428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedc2139f20085d41b71b7fd06109f01
+      internalID: 71167667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209dd45483c66a74c900224de2459bef
+      internalID: 1395472064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031901251d0cfcc4da77809471626c2f
+      internalID: -718356201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30a8637dfbd62f468b4f5fd18193501
+      internalID: -957090579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f294f83632e8d4ab3f39a877a6c92f
+      internalID: 116288238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_8
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663d2a4823821e8429dbabc29f7ba6e1
+      internalID: 2120833311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d06e0b2d363fa48a514660862b9434
+      internalID: -1794414708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_10
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315b26c684d929447bb2551a736ff7a0
+      internalID: 166521603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e66ab92c02924dad86cbf59f98772
+      internalID: -1993427611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_12
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56093111add4d0049b4236efc0cd7acc
+      internalID: 1477136450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_13
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4973127fdf46d7c4596f1c7c92a24190
+      internalID: -197716647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6347dd86285e76742b38f8823f12f0c6
+      internalID: 1659370325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957a9e58b12d40344a70b4bf6cb397e3
+      internalID: 1212121468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc17c9c374a37ec4690e8295f8d2860f
+      internalID: -1837923889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce8cb5423e8e184b8393554aa703ea5
+      internalID: 1721750958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_18
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a40ae30af292046853cd1abd8a441b
+      internalID: 436815425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b994d4370033ee5448870463cd6054f5
+      internalID: -688585545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_20
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409f3c3e1cf783c4e84482baaa475e20
+      internalID: -1886685351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_21
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211e061a55dfd8540aafaacb5dc24f08
+      internalID: -519059934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_22
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c95f8697cf8804b98c5980e2b108a3
+      internalID: 1520230415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_23
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa042e4547ee38340b6b38bdd3193371
+      internalID: 125835691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_24
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4519f53333e2746a761b2c7b106623
+      internalID: -1127783721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_25
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d276eae6bcb8047b5262f9059d0d78
+      internalID: -966685469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_26
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc19a05ada63964192ee49b9e08abe5
+      internalID: -838638918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_27
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4bfabd128505a40827e85062428161
+      internalID: -1732344468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e119d7622de52e4f97f0e8326be01b5
+      internalID: -224877638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a7841cfc2b2a24e8763326307a7b27
+      internalID: 903718773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a535d92a62bc84da700eabecb09804
+      internalID: -306764017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_31
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe26b715da3aaf4bbddf57b2b83f6ae
+      internalID: -958319886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254c27a42e42acd47bba9f66ab632e23
+      internalID: 310496809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_33
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa3ee8ac9968204a8f0ebe13f7b69e6
+      internalID: 1776366188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_34
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adca303a11d227c489c2295435f4d0a7
+      internalID: 1257264096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_35
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8458ef7f5991339488b04716bad7afc3
+      internalID: -2001645578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_36
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce743593d75d67b4fbb0bc44f38cdc56
+      internalID: -725656011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_37
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a44717b9201a2e42bed7ec15147580c
+      internalID: -1370041452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_38
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074682f95dd89414ba59391bdc17bf8c
+      internalID: 1992681807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_39
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926137e74ad200b42bc7ba5db929ff6e
+      internalID: 369706776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_40
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e961eefe5b09ef4da72aed78dba2977
+      internalID: -363543465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_41
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e4a18d4825c584198b21af45af156a
+      internalID: 759696625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25eee7f31fc0fa4788be6be69d3dce9
+      internalID: 1755091037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc24c5fb80472441b06fb83ad88bda8
+      internalID: -1394687212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_44
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d6d5c0a4831b941bdecb6556b42b0c
+      internalID: -2124479614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_45
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190b266cdf8912649b5ac6076a7b52e8
+      internalID: -1052981917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_46
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56f861cc350bf14b876783c5f8d3454
+      internalID: 725792637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_47
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44fab75a09d78d47af783d55a704682
+      internalID: 628324938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_48
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388e98fa52ba9404ca3cbc13c8e459d9
+      internalID: -350872398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_49
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d476f157325e1514eb30127c9a3d00b3
+      internalID: 1158141413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_50
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508b8c98a47a214e944ba42afc56f43
+      internalID: 982078342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_51
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9354d2fa6f8fb14c935c4e3f13177f8
+      internalID: -116562049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_52
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e893be6179db6d42af60d20ebfaf979
+      internalID: -1756333760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_53
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a32092624353248b1b01b89f6f82ab
+      internalID: -1510946963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_54
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7464bd5bf58df8e40ae9398e53d52b4b
+      internalID: 675500785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_55
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f0fdd8f0409bd459567c94daf6f515
+      internalID: 897511142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59718bbd9ca11034ba89778d48fb1ce8
+      internalID: 1390537011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_57
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8717eab297765e14bb56029b13637f09
+      internalID: 2141734127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_58
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769a5f79636db2d448ad364f9d879b9a
+      internalID: -1012301040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_59
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6524732f71697e34bb4cecb41c086594
+      internalID: -42772745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_60
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae573e1ddbb96e64d8c0e03aab82a75b
+      internalID: -2012412932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_61
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a52d103c73a8f047802f65078144f0b
+      internalID: 1029006120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_62
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd09a5c5cdb3b0041854f30f6e76c316
+      internalID: -1261033914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_63
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1323382be9f759944b99951c3b6335a7
+      internalID: -1981497436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_64
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6e46b64a6b5a44e9095e45291ff432
+      internalID: 45721246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_65
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3d8874bbca0bf45860579b6f939ea5
+      internalID: -761524192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_66
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1cf73c0543331458943864be3fd810
+      internalID: -1360708922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_67
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa47c0e65970dd3498c581ee39f3705c
+      internalID: -497063351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_68
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed152e563def26445b74363870063df9
+      internalID: -1035986093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_69
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c3ce149917ab346bd841bffda0f021
+      internalID: 172399493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2bf4c2244a68b428cf97c5c1a04753
+      internalID: 1695379991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_71
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9a8f0b98c0bf842a63858ef7451438
+      internalID: 1993156768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_72
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a2c8fd6a944a44497d18865907df23
+      internalID: 1883534016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_73
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f841a45be17dda4fb18b439dd957ebf
+      internalID: -423260854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_74
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e461969a9f61b734da7e8bb5d920b414
+      internalID: -83221621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_75
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9fc93f0d20c9046b28082f52f76e31
+      internalID: -2142280286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_76
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d55bccfae836e468c35538a16eb946
+      internalID: 2094307094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_77
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c26b450e652aa49b85695ac95c9a3e
+      internalID: 1524849577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_78
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ad92c3f801b2d46a5603da61e81966
+      internalID: -1451545425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_79
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb871dae768a98841b5b06be72de8b53
+      internalID: -1744892974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_80
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32d32492118e6c4881f3a14f3d3e225
+      internalID: -1170858268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_81
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1577f2c881ab09943a5b8ea1ae3630a6
+      internalID: 807470224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_82
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fe31210cbb00e4bbcdfeaed755c117
+      internalID: 722079153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_83
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa473e1f59961c40a745e0d2ed040a2
+      internalID: -1909162299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5add4e27dabfd449d3fbe16ef0186a
+      internalID: 2127596110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_85
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0697e4855bf4e864e94b608fa1421acc
+      internalID: 225611673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_86
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28533e0f03db83946b2b0e0318dc0271
+      internalID: 466330245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_87
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f22eeda3af5a9e4c9bda364c43366ea
+      internalID: 164991383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_88
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b7ad0d7d8475249a37be6d572051af
+      internalID: 1815539520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_89
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ae0f532ce1c6f44bdaf370bdd1d32e
+      internalID: -2116572622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_90
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf6bacf46f0d80489f715e08fc015a2
+      internalID: -1444290554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_91
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b8c40454d400d4988a81a007ec5cba
+      internalID: -1996496378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_92
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3312556cb1f08c644bca22d98fe5357e
+      internalID: -700522000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_93
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a08102fe8626b498f7b3f62ebd1784
+      internalID: -1100775471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_94
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5565fc78ea324ce41ac450a045a04a9d
+      internalID: 457581438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_95
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9d525c66fe5c84aa6bfaedca06cf5d
+      internalID: 536640198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_96
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b5934bf614b7b439048c5b4bcdb255
+      internalID: -734346187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_97
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014f89c6b242f1a418f3ed2682545ec1
+      internalID: 1638876558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_98
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfdf8cd136adc042af34b9bfb753754
+      internalID: 1707737080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_99
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44d65673535817468f9a463323dd3a6
+      internalID: -1103314884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_100
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791a28673222ce24b9a15ed2edcbbabe
+      internalID: 1895747337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_101
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd5b21a139a38542b1ad253a0572000
+      internalID: -1067741800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_102
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4870337919bf64fae01bfb19c1a587
+      internalID: -515976074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_103
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6df1316a640051489869ed6fe99d98c
+      internalID: 1374191978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_104
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e13bed1bc17f8498c806bc9bc3c396
+      internalID: -802094515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_105
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7923c365a342149be34fad464a579b
+      internalID: 1842055160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_106
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059dcffca1ec16c40b8e2e2184ec6375
+      internalID: -191876670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_107
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beec3fa14ec5914ea676577e5a04dd8
+      internalID: 1400879074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_108
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcbf67817ab38d4da04549c5e1105da
+      internalID: 1423647493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_109
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea8bb203b4701949939ce35b5b7b7bf
+      internalID: 1962697140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_110
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7da2bba10d5314890d26d8b4861677
+      internalID: 899186938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_111
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878bf2dcc2ff8cc408081e430515d1f9
+      internalID: -183079548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be20520f2eb3f63418084ebee155d783
+      internalID: -706428906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_113
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e495b31f2717514a8d052122553a46a
+      internalID: -900980214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_114
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9731abaaf01861042b8203b4109e7f23
+      internalID: 1143586769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_115
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671736c17a8b7d441b4e47a5fc250425
+      internalID: -72293653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_116
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9312b477c7eb859408b40344d9bab585
+      internalID: 233908892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_117
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a502ff2b8ccb2664b8221207695c82f4
+      internalID: 605122387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_118
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a477117045846a42b8e4b85c97c9c29
+      internalID: 1365602549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_119
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2300f33834f0d6b4798476110d4d6de8
+      internalID: -1639682710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390b45261c2b02d41bba00bc57805ef8
+      internalID: 459542070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_121
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e05cbd41c945d49854db49b334d6c3
+      internalID: 1434738085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_122
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc59e51d556a7e14abf8ca4f9207a93f
+      internalID: -1841815126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_123
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef5cd53a8f8da74d9a09f19b4e8bbf5
+      internalID: -1759435065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_124
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9b7bf42731217419d20cc671968101
+      internalID: -2062736464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_125
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63be02e836526364fac2d99ed231c569
+      internalID: 172304435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_126
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bff0e0fa8fb5f848a634b5ca03185d9
+      internalID: -1385008424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_127
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eddd63353f794409b5cc04e8dcdeac
+      internalID: -456519482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31383568f00d5f14c98edc17cba881a7
+      internalID: -792715256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_129
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ad12a89baf354f8ebf9f6a627ccd4
+      internalID: -374447988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_130
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd817e6602cd8d458e5d7a38c8312dc
+      internalID: 931610573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_131
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc73527dfdf4aa4b85d29168d86c818
+      internalID: 1557481088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_132
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de38d9998c730424dbdf919777a70cc2
+      internalID: -1905732665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_133
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9d619c2139ee4419f395cc04a2dc55
+      internalID: -1150101657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_134
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ae5b248ad1c934ca14d443bf6e076e
+      internalID: 788838269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesheetGordo_135
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c199248f8dd8c374280e84482ca772e6
+      internalID: -2100876372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 37d7069241dd1ad41b4fde88f4491d05
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tilesheetGordo_0: 1496620759
+      tilesheetGordo_1: -692823302
+      tilesheetGordo_10: 166521603
+      tilesheetGordo_100: 1895747337
+      tilesheetGordo_101: -1067741800
+      tilesheetGordo_102: -515976074
+      tilesheetGordo_103: 1374191978
+      tilesheetGordo_104: -802094515
+      tilesheetGordo_105: 1842055160
+      tilesheetGordo_106: -191876670
+      tilesheetGordo_107: 1400879074
+      tilesheetGordo_108: 1423647493
+      tilesheetGordo_109: 1962697140
+      tilesheetGordo_11: -1993427611
+      tilesheetGordo_110: 899186938
+      tilesheetGordo_111: -183079548
+      tilesheetGordo_112: -706428906
+      tilesheetGordo_113: -900980214
+      tilesheetGordo_114: 1143586769
+      tilesheetGordo_115: -72293653
+      tilesheetGordo_116: 233908892
+      tilesheetGordo_117: 605122387
+      tilesheetGordo_118: 1365602549
+      tilesheetGordo_119: -1639682710
+      tilesheetGordo_12: 1477136450
+      tilesheetGordo_120: 459542070
+      tilesheetGordo_121: 1434738085
+      tilesheetGordo_122: -1841815126
+      tilesheetGordo_123: -1759435065
+      tilesheetGordo_124: -2062736464
+      tilesheetGordo_125: 172304435
+      tilesheetGordo_126: -1385008424
+      tilesheetGordo_127: -456519482
+      tilesheetGordo_128: -792715256
+      tilesheetGordo_129: -374447988
+      tilesheetGordo_13: -197716647
+      tilesheetGordo_130: 931610573
+      tilesheetGordo_131: 1557481088
+      tilesheetGordo_132: -1905732665
+      tilesheetGordo_133: -1150101657
+      tilesheetGordo_134: 788838269
+      tilesheetGordo_135: -2100876372
+      tilesheetGordo_14: 1659370325
+      tilesheetGordo_15: 1212121468
+      tilesheetGordo_16: -1837923889
+      tilesheetGordo_17: 1721750958
+      tilesheetGordo_18: 436815425
+      tilesheetGordo_19: -688585545
+      tilesheetGordo_2: -783731428
+      tilesheetGordo_20: -1886685351
+      tilesheetGordo_21: -519059934
+      tilesheetGordo_22: 1520230415
+      tilesheetGordo_23: 125835691
+      tilesheetGordo_24: -1127783721
+      tilesheetGordo_25: -966685469
+      tilesheetGordo_26: -838638918
+      tilesheetGordo_27: -1732344468
+      tilesheetGordo_28: -224877638
+      tilesheetGordo_29: 903718773
+      tilesheetGordo_3: 71167667
+      tilesheetGordo_30: -306764017
+      tilesheetGordo_31: -958319886
+      tilesheetGordo_32: 310496809
+      tilesheetGordo_33: 1776366188
+      tilesheetGordo_34: 1257264096
+      tilesheetGordo_35: -2001645578
+      tilesheetGordo_36: -725656011
+      tilesheetGordo_37: -1370041452
+      tilesheetGordo_38: 1992681807
+      tilesheetGordo_39: 369706776
+      tilesheetGordo_4: 1395472064
+      tilesheetGordo_40: -363543465
+      tilesheetGordo_41: 759696625
+      tilesheetGordo_42: 1755091037
+      tilesheetGordo_43: -1394687212
+      tilesheetGordo_44: -2124479614
+      tilesheetGordo_45: -1052981917
+      tilesheetGordo_46: 725792637
+      tilesheetGordo_47: 628324938
+      tilesheetGordo_48: -350872398
+      tilesheetGordo_49: 1158141413
+      tilesheetGordo_5: -718356201
+      tilesheetGordo_50: 982078342
+      tilesheetGordo_51: -116562049
+      tilesheetGordo_52: -1756333760
+      tilesheetGordo_53: -1510946963
+      tilesheetGordo_54: 675500785
+      tilesheetGordo_55: 897511142
+      tilesheetGordo_56: 1390537011
+      tilesheetGordo_57: 2141734127
+      tilesheetGordo_58: -1012301040
+      tilesheetGordo_59: -42772745
+      tilesheetGordo_6: -957090579
+      tilesheetGordo_60: -2012412932
+      tilesheetGordo_61: 1029006120
+      tilesheetGordo_62: -1261033914
+      tilesheetGordo_63: -1981497436
+      tilesheetGordo_64: 45721246
+      tilesheetGordo_65: -761524192
+      tilesheetGordo_66: -1360708922
+      tilesheetGordo_67: -497063351
+      tilesheetGordo_68: -1035986093
+      tilesheetGordo_69: 172399493
+      tilesheetGordo_7: 116288238
+      tilesheetGordo_70: 1695379991
+      tilesheetGordo_71: 1993156768
+      tilesheetGordo_72: 1883534016
+      tilesheetGordo_73: -423260854
+      tilesheetGordo_74: -83221621
+      tilesheetGordo_75: -2142280286
+      tilesheetGordo_76: 2094307094
+      tilesheetGordo_77: 1524849577
+      tilesheetGordo_78: -1451545425
+      tilesheetGordo_79: -1744892974
+      tilesheetGordo_8: 2120833311
+      tilesheetGordo_80: -1170858268
+      tilesheetGordo_81: 807470224
+      tilesheetGordo_82: 722079153
+      tilesheetGordo_83: -1909162299
+      tilesheetGordo_84: 2127596110
+      tilesheetGordo_85: 225611673
+      tilesheetGordo_86: 466330245
+      tilesheetGordo_87: 164991383
+      tilesheetGordo_88: 1815539520
+      tilesheetGordo_89: -2116572622
+      tilesheetGordo_9: -1794414708
+      tilesheetGordo_90: -1444290554
+      tilesheetGordo_91: -1996496378
+      tilesheetGordo_92: -700522000
+      tilesheetGordo_93: -1100775471
+      tilesheetGordo_94: 457581438
+      tilesheetGordo_95: 536640198
+      tilesheetGordo_96: -734346187
+      tilesheetGordo_97: 1638876558
+      tilesheetGordo_98: 1707737080
+      tilesheetGordo_99: -1103314884
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

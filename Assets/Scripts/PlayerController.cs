@@ -160,7 +160,8 @@ public class PlayerController : MonoBehaviour
                 Red_CadenceLvl++;
                 break;
             case 5:
-                Mathf.Clamp(Health + MaxHealth * 0.2f, 0, MaxHealth);
+                //cura
+                Health = Mathf.Clamp(Health + Mathf.RoundToInt(MaxHealth * 0.2f), 0, MaxHealth);
                 break;
             //Blue_Damage
             case 6:
