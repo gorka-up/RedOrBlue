@@ -47,6 +47,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public GameObject damageSound;
     [SerializeField] public GameObject deathSound;
 
+    [SerializeField] public GameObject DamageParticlePrefab;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -124,6 +126,7 @@ public class PlayerController : MonoBehaviour
             nextDamage = Time.time + invulnerability;
             Health--;
             Instantiate(damageSound);
+            Instantiate(DamageParticlePrefab, transform.position, Quaternion.identity);
             if (Health <= 0)
             {
                 Muerto();
