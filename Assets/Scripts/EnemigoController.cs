@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnemigoController : MonoBehaviour
 {
@@ -16,9 +17,12 @@ public class EnemigoController : MonoBehaviour
 
     public bool damageTaken;
 
+    private Rigidbody2D rb;
+
     private void Start()
     {
         playerController = targetGameObject.GetComponent<PlayerController>();
+        rb = GetComponent<Rigidbody2D>();
     }
     public void TakeDamage(double damage)
     {
@@ -28,6 +32,10 @@ public class EnemigoController : MonoBehaviour
         {
             DropXP();
         }
+    }
+    private void FixedUpdate()
+    {
+        rotate();
     }
 
     void DropXP()
@@ -47,6 +55,12 @@ public class EnemigoController : MonoBehaviour
         objetivo = target.transform;
     }
 
+    void rotate()
+    {
+        Vector2 findPlayer= objetivo.position - transform.position;
+        float rotateAngle = Mathf.Atan2(findPlayer.y, findPlayer.x) * Mathf.Rad2Deg - 90f;
+        rb.rotation = rotateAngle;
+    }
     void ScalingStats()
     {
         
