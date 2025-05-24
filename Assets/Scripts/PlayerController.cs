@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     [SerializeField] public GameObject damageSound;
+    [SerializeField] public GameObject deathSound;
 
     private void Awake()
     {
@@ -133,6 +134,7 @@ public class PlayerController : MonoBehaviour
     //morirse
     void Muerto()
     {
+        Instantiate(deathSound);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
