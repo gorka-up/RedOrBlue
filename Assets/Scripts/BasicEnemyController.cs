@@ -24,14 +24,13 @@ public class BasicEnemyController : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, enemigoController.objetivo.position, enemigoController.Speed * Time.deltaTime);
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject == enemigoController.targetGameObject)
         {
             Attack();
         }
     }
-
 
     private void Attack()
     {
