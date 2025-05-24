@@ -140,6 +140,7 @@ MonoBehaviour:
   ViewDistance: 4
   shootTimer: 0.5
   player: {fileID: 0}
+  soundEfect: {fileID: 8888426827565311384, guid: 616053c2b9dcae443a6247c8504a061f, type: 3}
 --- !u!50 &5531330051131080075
 Rigidbody2D:
   serializedVersion: 5

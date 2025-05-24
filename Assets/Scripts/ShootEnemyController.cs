@@ -16,7 +16,7 @@ public class ShootEnemyController : MonoBehaviour
     PlayerController playerController;
     [SerializeField] GameObject player;
 
-
+    [SerializeField] public GameObject soundEfect;
 
     private void Awake()
     {
@@ -57,5 +57,6 @@ public class ShootEnemyController : MonoBehaviour
     void Shoot()
     {
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
+        Instantiate(soundEfect);
     }
 }
