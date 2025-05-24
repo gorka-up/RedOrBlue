@@ -28,8 +28,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public double Blue_Damage;
     [SerializeField] public double Blue_Cadence;
 
-
-
     [SerializeField] public int XP;
 
     public int HealthLvl = 1;

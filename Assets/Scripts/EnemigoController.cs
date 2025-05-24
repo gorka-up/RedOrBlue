@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class EnemigoController : MonoBehaviour
 {
-    [SerializeField] public double Health = 10;
-    [SerializeField] public float Speed = 3.5f;
+    [SerializeField] public double Health;
+    [SerializeField] public float Speed;
 
     [SerializeField] public Transform objetivo;
     public GameObject targetGameObject;
@@ -47,8 +47,8 @@ public class EnemigoController : MonoBehaviour
         objetivo = target.transform;
     }
 
-    int ScalingStats()
+    void ScalingStats()
     {
-        return 1;
+        
     }
 }

@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class SpawningController : MonoBehaviour
 {
-    [SerializeField] GameObject red_enemy;
-    [SerializeField] GameObject blue_enemy;
     [SerializeField] List<GameObject> enemies;
     [SerializeField] Vector2 spawningArea;
     [SerializeField] float spawningTimer;
     [SerializeField] GameObject player;
     float timer;
+
+    [SerializeField] List<float> spawningWeights; // Pesos para cada enemigo
+    private List<float> cumulativeWeights;
+    private float totalWeight;
+
+    //private void Start()
+    //{
+    //    InitializeWeights();
+    //}
 
     private void FixedUpdate()
     {
@@ -28,7 +35,7 @@ public class SpawningController : MonoBehaviour
         int random = UnityEngine.Random.Range(0, enemies.Count);
         GameObject newEnemy = Instantiate(enemies[random]);
 
-        //GameObject newEnemy = (UnityEngine.Random.value < 0.5f) ? Instantiate(red_enemy) : Instantiate(blue_enemy);
+        //GameObject newEnemy = SelectWeightedEnemy();
 
         //position
         Vector3 position = GenerateRandomPosition();
@@ -56,4 +63,58 @@ public class SpawningController : MonoBehaviour
 
         return position;
     }
+
+    //void InitializeWeights()
+    //{
+    //    // Si no hay pesos definidos, crear unos por defecto (1)
+    //    if (spawningWeights == null || spawningWeights.Count != enemies.Count)
+    //    {
+    //        spawningWeights = new List<float>();
+    //        foreach (var enemy in enemies)
+    //        {
+    //            spawningWeights.Add(1f); // Peso por defecto 1
+    //        }
+    //    }
+
+    //    // Calcular pesos acumulativos
+    //    cumulativeWeights = new List<float>();
+    //    totalWeight = 0f;
+
+    //    for (int i = 0; i < spawningWeights.Count; i++)
+    //    {
+    //        totalWeight += spawningWeights[i];
+    //        cumulativeWeights.Add(totalWeight);
+    //    }
+    //}
+
+    //GameObject SelectWeightedEnemy()
+    //{
+    //    if (enemies.Count == 0) return null;
+    //    if (enemies.Count == 1) return enemies[0];
+
+    //    // Generar un valor aleatorio dentro del rango total
+    //    float randomValue = UnityEngine.Random.Range(0f, totalWeight);
+
+    //    // Encontrar el indice correspondiente
+    //    for (int i = 0; i < cumulativeWeights.Count; i++)
+    //    {
+    //        if (randomValue <= cumulativeWeights[i])
+    //        {
+    //            return enemies[i];
+    //        }
+    //    }
+
+    //    return enemies[enemies.Count - 1]; // Por defecto, el ultimo
+    //}
+
+    // Metodo para cambiar pesos dinamicamente
+    //public void SetEnemyWeight(int enemyIndex, float newWeight)
+    //{
+    //    if (enemyIndex >= 0 && enemyIndex < spawningWeights.Count)
+    //    {
+    //        spawningWeights[enemyIndex] = newWeight;
+    //        // Recalcular pesos acumulativos
+    //        InitializeWeights();
+    //    }
+    //}
 }
