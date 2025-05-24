@@ -10,6 +10,7 @@ public class EnemigoController : MonoBehaviour
     [SerializeField] public Transform objetivo;
     public GameObject targetGameObject;
     private PlayerController playerController;
+    private ScalingController scalingController;
 
     [SerializeField] public GameObject particlePrefab;
 
@@ -23,6 +24,8 @@ public class EnemigoController : MonoBehaviour
     {
         playerController = targetGameObject.GetComponent<PlayerController>();
         rb = GetComponent<Rigidbody2D>();
+        scalingController = GetComponent<ScalingController>();
+        //ScalingStats();
     }
     public void TakeDamage(double damage)
     {
@@ -63,6 +66,6 @@ public class EnemigoController : MonoBehaviour
     }
     void ScalingStats()
     {
-        
+        Health = Health * scalingController.Scalinglevel;
     }
 }
