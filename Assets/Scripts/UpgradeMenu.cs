@@ -49,11 +49,11 @@ public class UpgradeMenu : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
-            if (Time.timeScale == 0)
+            if (Time.timeScale == 0 && playerController.IsDeath == false)
             {
                 Play();
             }
-            else
+            else if (playerController.IsDeath == false)
             {
                 Pause();
             }

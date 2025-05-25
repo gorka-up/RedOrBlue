@@ -46,6 +46,7 @@ public class EnemigoController : MonoBehaviour
         Instantiate(soundEfect);
         //Aqui suelta los puntos
         playerController.XP +=(int)(100.0 * playerController.Greed);
+        playerController.TotalXP += (int)(100.0 * playerController.Greed);
 
         Instantiate(particlePrefab, transform.position, Quaternion.identity);
 

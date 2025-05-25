@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public double Blue_Cadence;
 
     [SerializeField] public int XP;
+    [SerializeField] public int TotalXP;
 
     public int HealthLvl = 1;
     public int GreedLvl = 1;
@@ -48,30 +49,39 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public GameObject deathSound;
 
     [SerializeField] public GameObject DamageParticlePrefab;
+    [SerializeField] public GameObject DeathParticlePrefab;
+
+    [SerializeField]private DeathController deathController;
+
+    public bool IsDeath = false;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         movementVector = new Vector3();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        IsDeath = false;
     }
 
     void Update()
     {
-        ProcessInputs();
+        if (!IsDeath)
+        {
+            ProcessInputs();
 
-        if (!canShoot && Time.time >= nextShoot)
-        {
-            canShoot = true;
-        }
+            if (!canShoot && Time.time >= nextShoot)
+            {
+                canShoot = true;
+            }
 
-        if (weaponController.mode)
-        {
-            spriteRenderer.sprite = blueSprite;
-        }
-        else
-        {
-            spriteRenderer.sprite = redSprite;
+            if (weaponController.mode)
+            {
+                spriteRenderer.sprite = blueSprite;
+            }
+            else
+            {
+                spriteRenderer.sprite = redSprite;
+            }
         }
     }
 
@@ -138,10 +148,14 @@ public class PlayerController : MonoBehaviour
     void Muerto()
     {
         Instantiate(deathSound);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Instantiate(DeathParticlePrefab);
+        IsDeath = true;
+        deathController.Death();
+        deathController.SetDeathStats();
+        spriteRenderer.gameObject.SetActive(false);
     }
 
-   
+
     public void LevelUp(int opcion)
     {
         switch (opcion)
