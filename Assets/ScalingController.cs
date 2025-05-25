@@ -8,10 +8,13 @@ public class ScalingController : MonoBehaviour
 
     public float Scalinglevel = 1f;
 
+    private SpawningController spawningController;
+
     //Inicio el primer tiempo de escalado
     void Start()
     {
         nextScalingTime = Time.time + scalingInterval;
+        spawningController = GetComponent<SpawningController>();
     }
 
     // Compruebo si ha pasado el tiempo necesario para aumentar el escalado
@@ -21,7 +24,7 @@ public class ScalingController : MonoBehaviour
         {
             IncrementCounter();
             nextScalingTime = Time.time + scalingInterval;
-            Debug.Log(Scalinglevel);
+            spawningController.SpawnBoss();
         }
     }
 

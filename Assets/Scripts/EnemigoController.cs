@@ -4,6 +4,7 @@ using UnityEngine.UIElements;
 
 public class EnemigoController : MonoBehaviour
 {
+    [SerializeField] public double MaxHealth;
     [SerializeField] public double Health;
     [SerializeField] public float Speed;
 
@@ -20,11 +21,13 @@ public class EnemigoController : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    [SerializeField] bool IsBoss;
+
     private void Start()
     {
         playerController = targetGameObject.GetComponent<PlayerController>();
         rb = GetComponent<Rigidbody2D>();
-        scalingController = GetComponent<ScalingController>();
+        //scalingController = GetComponent<ScalingController>();
         //ScalingStats();
     }
     public void TakeDamage(double damage)
@@ -45,9 +48,16 @@ public class EnemigoController : MonoBehaviour
     {
         Instantiate(soundEfect);
         //Aqui suelta los puntos
-        playerController.XP +=(int)(100.0 * playerController.Greed);
-        playerController.TotalXP += (int)(100.0 * playerController.Greed);
-
+        if (IsBoss)
+        {
+            playerController.XP += (int)(500.0 * playerController.Greed);
+            playerController.TotalXP += (int)(500.0 * playerController.Greed);
+        }
+        else
+        {
+            playerController.XP += (int)(100.0 * playerController.Greed);
+            playerController.TotalXP += (int)(100.0 * playerController.Greed);
+        }
         Instantiate(particlePrefab, transform.position, Quaternion.identity);
 
         Destroy(gameObject);
@@ -67,6 +77,7 @@ public class EnemigoController : MonoBehaviour
     }
     void ScalingStats()
     {
-        Health = Health * scalingController.Scalinglevel;
+        MaxHealth = MaxHealth * scalingController.Scalinglevel;
+        Health = MaxHealth;
     }
 }

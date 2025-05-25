@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawningController : MonoBehaviour
 {
     [SerializeField] List<GameObject> enemies;
+    [SerializeField] List<GameObject> bosses;
     [SerializeField] Vector2 spawningArea;
     [SerializeField] float spawningTimer;
     [SerializeField] GameObject player;
@@ -43,6 +44,20 @@ public class SpawningController : MonoBehaviour
         newEnemy.transform.position = position;
         newEnemy.GetComponent<EnemigoController>().SetTarget(player);
         newEnemy.transform.parent = transform;
+    }
+
+    public void SpawnBoss()
+    {
+        //enemy
+        int random = UnityEngine.Random.Range(0, bosses.Count);
+        GameObject boss = Instantiate(bosses[random]);
+
+        //position
+        Vector3 position = GenerateRandomPosition();
+        position += player.transform.position;
+        boss.transform.position = position;
+        boss.GetComponent<EnemigoController>().SetTarget(player);
+        boss.transform.parent = transform;
     }
 
     private Vector3 GenerateRandomPosition()
