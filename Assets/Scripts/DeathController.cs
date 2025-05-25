@@ -36,7 +36,7 @@ public class DeathController : MonoBehaviour
 
     public void SetDeathStats()
     {
-        TotalTime.GetComponent<TMPro.TMP_Text>().text = "Time Survived: " + Time.time + "seconds";
+        TotalTime.GetComponent<TMPro.TMP_Text>().text = "Time Alive: " + (int)Time.time + " sec";
         XP.GetComponent<TMPro.TMP_Text>().text = "XP Gained: " + playerController.TotalXP;
     }
 }

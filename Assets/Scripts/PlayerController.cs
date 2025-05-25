@@ -148,7 +148,7 @@ public class PlayerController : MonoBehaviour
     void Muerto()
     {
         Instantiate(deathSound);
-        Instantiate(DeathParticlePrefab);
+        Instantiate(DeathParticlePrefab, transform.position, Quaternion.identity);
         IsDeath = true;
         deathController.Death();
         deathController.SetDeathStats();
