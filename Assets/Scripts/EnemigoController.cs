@@ -27,8 +27,8 @@ public class EnemigoController : MonoBehaviour
     {
         playerController = targetGameObject.GetComponent<PlayerController>();
         rb = GetComponent<Rigidbody2D>();
-        //scalingController = GetComponent<ScalingController>();
-        //ScalingStats();
+        scalingController = transform.parent.gameObject.GetComponent<ScalingController>();
+        ScalingStats();
     }
     public void TakeDamage(double damage)
     {

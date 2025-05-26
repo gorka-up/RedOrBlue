@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class SpawningController : MonoBehaviour
 {
-    [SerializeField] List<GameObject> enemies;
-    [SerializeField] List<GameObject> bosses;
+    [SerializeField] List<GameObject> BlueEnemies;
+    [SerializeField] List<GameObject> RedEnemies;
+    [SerializeField] List<GameObject> BlueBosses;
+    [SerializeField] List<GameObject> RedBosses;
     [SerializeField] Vector2 spawningArea;
     [SerializeField] float spawningTimer;
     [SerializeField] GameObject player;
+    private PlayerController playerController;
     float timer;
 
-    [SerializeField] List<float> spawningWeights; // Pesos para cada enemigo
-    private List<float> cumulativeWeights;
-    private float totalWeight;
+    int RedUpgrades;
+    int BlueUpgrades;
 
-    //private void Start()
-    //{
-    //    InitializeWeights();
-    //}
+    private void Start()
+    {
+        playerController = player.GetComponent<PlayerController>();
+        BlueUpgrades = playerController.Blue_CadenceLvl + playerController.Blue_DamageLvl;
+        RedUpgrades = playerController.Red_CadenceLvl + playerController.Red_DamageLvl;
+    }
 
     private void FixedUpdate()
     {
@@ -28,43 +32,119 @@ public class SpawningController : MonoBehaviour
             SpawnEnemy();
             timer = spawningTimer;
         }
+        
+        //Actualizamos la cantidad de mejoras del player
+        BlueUpgrades = playerController.Blue_CadenceLvl + playerController.Blue_DamageLvl;
+        RedUpgrades = playerController.Red_CadenceLvl + playerController.Red_DamageLvl;
     }
 
     private void SpawnEnemy()
     {
-        //enemy
-        int random = UnityEngine.Random.Range(0, enemies.Count);
-        GameObject newEnemy = Instantiate(enemies[random]);
+        GameObject newEnemy;
 
-        //GameObject newEnemy = SelectWeightedEnemy();
+        //Numero aleatorio de la lista de enemigos
+        int random = UnityEngine.Random.Range(0, BlueEnemies.Count);
 
-        //position
+        if (BlueUpgrades > RedUpgrades) //Si + mejoras Azules 2/3 de sacar Rojos
+        {
+            if (UnityEngine.Random.Range(0, 3) > 1) 
+            {
+                newEnemy = Instantiate(BlueEnemies[random]);
+            }
+            else
+            {
+                newEnemy = Instantiate(RedEnemies[random]);
+            }
+        }
+        else if (BlueUpgrades < RedUpgrades)//Si + mejoras Rojas 2/3 de sacar Azules
+        {
+            if (UnityEngine.Random.Range(0, 3) > 1)
+            {
+                newEnemy = Instantiate(RedEnemies[random]);
+            }
+            else
+            {
+                newEnemy = Instantiate(BlueEnemies[random]);
+            }
+        }
+        else //Sino 50/50 
+        {
+            if (UnityEngine.Random.Range(0,2) > 0)
+            {
+                newEnemy = Instantiate(BlueEnemies[random]);
+            }
+            else
+            {
+                newEnemy = Instantiate(RedEnemies[random]);
+            } 
+        }
+
+        //Creamos una posicion
         Vector3 position = GenerateRandomPosition();
         position += player.transform.position;
         newEnemy.transform.position = position;
+        //Le indicamos el target
         newEnemy.GetComponent<EnemigoController>().SetTarget(player);
+        //Lo hacemos hijo de nuestro contenedor de enemigos
         newEnemy.transform.parent = transform;
     }
 
     public void SpawnBoss()
     {
-        //enemy
-        int random = UnityEngine.Random.Range(0, bosses.Count);
-        GameObject boss = Instantiate(bosses[random]);
+        GameObject boss;
+        int random = UnityEngine.Random.Range(0, BlueBosses.Count);
 
-        //position
+        if (BlueUpgrades > RedUpgrades) //Si + mejoras Azules 2/3 de sacar Rojos
+        {
+            if (UnityEngine.Random.Range(0, 3) > 1)
+            {
+                boss = Instantiate(BlueBosses[random]);
+            }
+            else
+            {
+                boss = Instantiate(RedBosses[random]);
+            }
+        }
+        else if (BlueUpgrades < RedUpgrades)//Si + mejoras Rojas 2/3 de sacar Azules
+        {
+            if (UnityEngine.Random.Range(0, 3) > 1)
+            {
+                boss = Instantiate(RedBosses[random]);
+            }
+            else
+            {
+                boss = Instantiate(BlueBosses[random]);
+            }
+        }
+        else //Sino 50/50 
+        {
+            if (UnityEngine.Random.Range(0, 2) > 0)
+            {
+                boss = Instantiate(BlueBosses[random]);
+            }
+            else
+            {
+                boss = Instantiate(RedBosses[random]);
+            }
+        }
+
+        //Creamos una posicion
         Vector3 position = GenerateRandomPosition();
         position += player.transform.position;
         boss.transform.position = position;
+        //Le indicamos el target
         boss.GetComponent<EnemigoController>().SetTarget(player);
+        //Lo hacemos hijo de nuestro contenedor de enemigos
         boss.transform.parent = transform;
     }
 
+    //Genera una posicion aleatoria al rededor del jugador
     private Vector3 GenerateRandomPosition()
     {
         Vector3 position = new Vector3();
 
         float f = UnityEngine.Random.value > 0.5f ? -1f : 1f;
+        //Genera una posicion random al rededor de la zona de spawneao que le he especificado (Fuera de la camara)
         if (UnityEngine.Random.value > 0.5f)
         {
             position.x = UnityEngine.Random.Range(-spawningArea.x, spawningArea.x);
@@ -79,57 +159,13 @@ public class SpawningController : MonoBehaviour
         return position;
     }
 
-    //void InitializeWeights()
-    //{
-    //    // Si no hay pesos definidos, crear unos por defecto (1)
-    //    if (spawningWeights == null || spawningWeights.Count != enemies.Count)
-    //    {
-    //        spawningWeights = new List<float>();
-    //        foreach (var enemy in enemies)
-    //        {
-    //            spawningWeights.Add(1f); // Peso por defecto 1
-    //        }
-    //    }
-
-    //    // Calcular pesos acumulativos
-    //    cumulativeWeights = new List<float>();
-    //    totalWeight = 0f;
-
-    //    for (int i = 0; i < spawningWeights.Count; i++)
-    //    {
-    //        totalWeight += spawningWeights[i];
-    //        cumulativeWeights.Add(totalWeight);
-    //    }
-    //}
-
-    //GameObject SelectWeightedEnemy()
-    //{
-    //    if (enemies.Count == 0) return null;
-    //    if (enemies.Count == 1) return enemies[0];
-
-    //    // Generar un valor aleatorio dentro del rango total
-    //    float randomValue = UnityEngine.Random.Range(0f, totalWeight);
-
-    //    // Encontrar el indice correspondiente
-    //    for (int i = 0; i < cumulativeWeights.Count; i++)
-    //    {
-    //        if (randomValue <= cumulativeWeights[i])
-    //        {
-    //            return enemies[i];
-    //        }
-    //    }
-
-    //    return enemies[enemies.Count - 1]; // Por defecto, el ultimo
-    //}
-
-    // Metodo para cambiar pesos dinamicamente
-    //public void SetEnemyWeight(int enemyIndex, float newWeight)
-    //{
-    //    if (enemyIndex >= 0 && enemyIndex < spawningWeights.Count)
-    //    {
-    //        spawningWeights[enemyIndex] = newWeight;
-    //        // Recalcular pesos acumulativos
-    //        InitializeWeights();
-    //    }
-    //}
+    //Escala el tiempo entre spawns de enemigos
+    public void ScalingSpawnTime()
+    {
+        spawningTimer -= 0.1f;
+        if (spawningTimer < 0.5)
+        {
+            spawningTimer = 0.5f;
+        }
+    }
 }

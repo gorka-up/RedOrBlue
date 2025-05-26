@@ -32,6 +32,14 @@ public class BasicEnemyController : MonoBehaviour
         }
     }
 
+    //private void OnTriggerStay2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject == enemigoController.targetGameObject)
+    //    {
+    //        Attack();
+    //    }
+    //}
+
     private void Attack()
     {
         playerController.GetHurt();
