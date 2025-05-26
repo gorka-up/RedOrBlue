@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1643306411721805224}
   - component: {fileID: 6167451007868136368}
   - component: {fileID: 4991221013241744457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Blue_TankEnemy
   m_TagString: Blue_Enemy
   m_Icon: {fileID: 0}
