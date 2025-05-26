@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 110a3e1b69294df4885b84d23965bcd9
+guid: 8cb146870983678438aeb39a1a75f17f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6556969382444417922
-    second: red_shoot_0
+      213: -6734270927564935086
+    second: red_character 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: red_shoot_0
+      name: red_character 1_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 16
-        width: 95
-        height: 95
+        x: 21
+        y: 21
+        width: 87
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7cb9444617f005a0800000000000000
-      internalID: -6556969382444417922
+      spriteID: 250704565401b82a0800000000000000
+      internalID: -6734270927564935086
       vertices: []
       indices: 
       edges: []
