@@ -55,6 +55,8 @@ public class PlayerController : MonoBehaviour
 
     public bool IsDeath = false;
 
+    float healing = 20f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -89,6 +91,16 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         Move();
+        
+        healing -= Time.deltaTime;
+        if ( healing <= 0)
+        {
+            healing = 20f;
+            if (Health + 1 < MaxHealth)
+            {
+                Health += 1;
+            }
+        }
     }
 
     //Movimiento
@@ -141,6 +153,7 @@ public class PlayerController : MonoBehaviour
             {
                 Muerto();
             }
+            healing = 20f;
         }
         
     }
