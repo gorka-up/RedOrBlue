@@ -9,10 +9,12 @@ public class DeathController : MonoBehaviour
 
     public PlayerController playerController;
     public GameObject deathMenu;
+    float startingTime;
     void Start()
     {
         deathMenu.SetActive(false);
         Time.timeScale = 1.0f;
+        startingTime = Time.time;
     }
 
     public void Death()
@@ -36,7 +38,7 @@ public class DeathController : MonoBehaviour
 
     public void SetDeathStats()
     {
-        TotalTime.GetComponent<TMPro.TMP_Text>().text = "Time Alive: " + (int)Time.time + " sec";
+        TotalTime.GetComponent<TMPro.TMP_Text>().text = "Time Alive: " + (int)(Time.time - startingTime) + " sec";
         XP.GetComponent<TMPro.TMP_Text>().text = "XP Gained: " + playerController.TotalXP;
     }
 }
