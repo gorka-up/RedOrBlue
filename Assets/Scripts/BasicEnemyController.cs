@@ -18,7 +18,7 @@ public class BasicEnemyController : MonoBehaviour
         playerController = player.GetComponent<PlayerController>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
         //Sigue al personaje a la velocidad speed
         transform.position = Vector2.MoveTowards(transform.position, enemigoController.objetivo.position, enemigoController.Speed * Time.deltaTime);
