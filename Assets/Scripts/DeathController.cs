@@ -46,6 +46,6 @@ public class DeathController : MonoBehaviour
         segundos = (int)((Time.time - startingTime) % 60);
         segundosBonito = (segundos > 9) ?segundos.ToString():"0" + segundos;
         TotalTime.GetComponent<TMPro.TMP_Text>().text = "Time Alive: " + minutos + ":" + segundosBonito;
-        XP.GetComponent<TMPro.TMP_Text>().text = "XP Gained: " + playerController.TotalXP;
+        XP.GetComponent<TMPro.TMP_Text>().text = "Total Coins: " + playerController.TotalXP;
     }
 }

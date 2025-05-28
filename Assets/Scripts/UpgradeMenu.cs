@@ -25,6 +25,11 @@ public class UpgradeMenu : MonoBehaviour
     [SerializeField] GameObject Blue_DamagePrice;
     [SerializeField] GameObject Blue_CadencePrice;
 
+    [SerializeField] GameObject HealthHUD;
+    [SerializeField] GameObject GreedHUD;
+    [SerializeField] GameObject RedHUD;
+    [SerializeField] GameObject BlueHUD;
+    [SerializeField] GameObject XPHUD;
 
     public GameObject upgradeMenu;
     public PlayerController playerController;
@@ -125,17 +130,17 @@ public class UpgradeMenu : MonoBehaviour
         HealthAmount.GetComponent<TMPro.TMP_Text>().text = "Health: " + playerController.Health + "/" + playerController.MaxHealth;
         GreedAmount.GetComponent<TMPro.TMP_Text>().text = "Greed: " + playerController.Greed;
 
-        Red_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Red Damage: " + playerController.Red_Damage;
-        Red_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Red Damage: " + Mathf.RoundToInt((float)playerController.Red_Damage);
-        Red_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Red Cadence: " + playerController.Red_Cadence;
-        Red_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Red Cadence: " + Mathf.RoundToInt((float)playerController.Red_Cadence);
+        Red_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + playerController.Red_Damage;
+        Red_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + Mathf.RoundToInt((float)playerController.Red_Damage);
+        Red_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + playerController.Red_Cadence;
+        Red_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + Mathf.RoundToInt((float)playerController.Red_Cadence);
 
-        Blue_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Blue Damage: " + playerController.Blue_Damage;
-        Blue_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Blue Damage: " + Mathf.RoundToInt((float)playerController.Blue_Damage);
-        Blue_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Blue Cadence: " + playerController.Blue_Cadence;
-        Blue_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Blue Cadence: " + Mathf.RoundToInt((float)playerController.Blue_Cadence);
+        Blue_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + playerController.Blue_Damage;
+        Blue_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + Mathf.RoundToInt((float)playerController.Blue_Damage);
+        Blue_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + playerController.Blue_Cadence;
+        Blue_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + Mathf.RoundToInt((float)playerController.Blue_Cadence);
         
-        XPAmount.GetComponent<TMPro.TMP_Text>().text = "XP: " + playerController.XP;
+        XPAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.XP;
 
         HealthPrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.HealthLvl;
         GreedPrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.GreedLvl;
@@ -145,5 +150,13 @@ public class UpgradeMenu : MonoBehaviour
 
         Blue_DamagePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Blue_DamageLvl;
         Blue_CadencePrice.GetComponent<TMPro.TMP_Text>().text = "" + 100 * playerController.Blue_CadenceLvl;
+
+        //Para mostrar en el HUD
+        HealthHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Health + "/" + playerController.MaxHealth;
+        GreedHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Greed;
+        XPHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.XP;
+
+        RedHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Red_Damage + " / " + playerController.Red_Cadence;
+        BlueHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Blue_Damage + " / " + playerController.Blue_Cadence;
     }
 }
