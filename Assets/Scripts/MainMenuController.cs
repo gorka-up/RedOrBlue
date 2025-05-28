@@ -3,6 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+    [SerializeField] GameObject creditsMenu1;
+    [SerializeField] GameObject creditsMenu2;
+
+    private void Start()
+    {
+        creditsMenu1.SetActive(false);
+        creditsMenu2.SetActive(false);
+    }
     public void Play()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
