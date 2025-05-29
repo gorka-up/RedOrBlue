@@ -27,27 +27,35 @@ public class UpgradeMenu : MonoBehaviour
 
     [SerializeField] GameObject HealthHUD;
     [SerializeField] GameObject GreedHUD;
-    [SerializeField] GameObject RedHUD;
-    [SerializeField] GameObject BlueHUD;
+    [SerializeField] GameObject RedDamageHUD;
+    [SerializeField] GameObject RedCadenceHUD;
+    [SerializeField] GameObject BlueDamageHUD;
+    [SerializeField] GameObject BlueCadenceHUD;
     [SerializeField] GameObject XPHUD;
 
     public GameObject upgradeMenu;
     public PlayerController playerController;
+    
+    [SerializeField] GameObject HudMenu;
+
     public void Pause()
     {
         upgradeMenu.SetActive(true);
+        HudMenu.SetActive(false);
         Time.timeScale = 0;
     }
 
     public void Play()
     {
         upgradeMenu.SetActive(false);
+        HudMenu.SetActive(true);
         Time.timeScale = 1;
     }
 
     private void Start()
     {
         upgradeMenu.SetActive(false);
+        HudMenu.SetActive(true);
         SetStats();
     }
     private void Update()
@@ -156,7 +164,9 @@ public class UpgradeMenu : MonoBehaviour
         GreedHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Greed;
         XPHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.XP;
 
-        RedHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Red_Damage + " / " + playerController.Red_Cadence;
-        BlueHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Blue_Damage + " / " + playerController.Blue_Cadence;
+        RedDamageHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Red_Damage;
+        RedCadenceHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Red_Cadence;
+        BlueDamageHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Blue_Damage;
+        BlueCadenceHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Blue_Cadence;
     }
 }
