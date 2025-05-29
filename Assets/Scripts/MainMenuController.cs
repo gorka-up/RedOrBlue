@@ -5,11 +5,13 @@ public class MainMenuController : MonoBehaviour
 {
     [SerializeField] GameObject creditsMenu1;
     [SerializeField] GameObject creditsMenu2;
+    [SerializeField] GameObject tutorialMenu;
 
     private void Start()
     {
         creditsMenu1.SetActive(false);
         creditsMenu2.SetActive(false);
+        tutorialMenu.SetActive(false);
     }
     public void Play()
     {
