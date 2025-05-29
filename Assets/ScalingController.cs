@@ -28,7 +28,6 @@ public class ScalingController : MonoBehaviour
             spawningController.SpawnBoss();
             Debug.Log("Entro");
         }
-        Debug.Log(nextScalingTime);
     }
 
     //En este metodo aumentamos el numero de escalado
