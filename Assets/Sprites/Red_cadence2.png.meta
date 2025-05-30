@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Red_cadence2_0: -2960013254212266816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

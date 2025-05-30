@@ -181,7 +181,7 @@ public class PlayerController : MonoBehaviour
                 break;
             //Red_Damage
             case 2:
-                Red_Damage = Red_Damage + Red_Damage * 0.2;
+                Red_Damage = Red_Damage + Red_Damage * 0.3;
                 Red_DamageLvl++;
                 break;
             //Greed
@@ -200,7 +200,7 @@ public class PlayerController : MonoBehaviour
                 break;
             //Blue_Damage
             case 6:
-                Blue_Damage = Blue_Damage + Blue_Damage * 0.2;
+                Blue_Damage = Blue_Damage + Blue_Damage * 0.3;
                 Blue_DamageLvl++;
                 break;
             //Blue_Cadence

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue_cadence2_0: 3960584582099014432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

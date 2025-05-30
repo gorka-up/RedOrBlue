@@ -138,14 +138,10 @@ public class UpgradeMenu : MonoBehaviour
         HealthAmount.GetComponent<TMPro.TMP_Text>().text = "Health: " + playerController.Health + "/" + playerController.MaxHealth;
         GreedAmount.GetComponent<TMPro.TMP_Text>().text = "Greed: " + playerController.Greed;
 
-        Red_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + playerController.Red_Damage;
         Red_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + Mathf.RoundToInt((float)playerController.Red_Damage);
-        Red_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + playerController.Red_Cadence;
         Red_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + Mathf.RoundToInt((float)playerController.Red_Cadence);
 
-        Blue_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + playerController.Blue_Damage;
         Blue_DamageAmount.GetComponent<TMPro.TMP_Text>().text = "Damage: " + Mathf.RoundToInt((float)playerController.Blue_Damage);
-        Blue_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + playerController.Blue_Cadence;
         Blue_CadenceAmount.GetComponent<TMPro.TMP_Text>().text = "Cadence: " + Mathf.RoundToInt((float)playerController.Blue_Cadence);
         
         XPAmount.GetComponent<TMPro.TMP_Text>().text = "" + playerController.XP;
@@ -164,9 +160,9 @@ public class UpgradeMenu : MonoBehaviour
         GreedHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Greed;
         XPHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.XP;
 
-        RedDamageHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Red_Damage;
-        RedCadenceHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Red_Cadence;
-        BlueDamageHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Blue_Damage;
-        BlueCadenceHUD.GetComponent<TMPro.TMP_Text>().text = "" + playerController.Blue_Cadence;
+        RedDamageHUD.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.RoundToInt((float)playerController.Red_Damage);
+        RedCadenceHUD.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.RoundToInt((float)playerController.Red_Cadence);
+        BlueDamageHUD.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.RoundToInt((float)playerController.Blue_Damage);
+        BlueCadenceHUD.GetComponent<TMPro.TMP_Text>().text = "" + Mathf.RoundToInt((float)playerController.Blue_Cadence);
     }
 }
