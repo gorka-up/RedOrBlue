@@ -4,7 +4,7 @@ public class BasicEnemyController : MonoBehaviour
 {    
     Rigidbody rb;
 
-    EnemigoController enemigoController;
+    public EnemigoController enemigoController;
 
     [SerializeField] GameObject player;
     PlayerController playerController;
@@ -24,23 +24,7 @@ public class BasicEnemyController : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, enemigoController.objetivo.position, enemigoController.Speed * Time.deltaTime);
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject == enemigoController.targetGameObject)
-        {
-            Attack();
-        }
-    }
-
-    //private void OnTriggerStay2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject == enemigoController.targetGameObject)
-    //    {
-    //        Attack();
-    //    }
-    //}
-
-    private void Attack()
+    public void Attack()
     {
         playerController.GetHurt();
     }
