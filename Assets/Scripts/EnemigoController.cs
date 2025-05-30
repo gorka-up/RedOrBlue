@@ -50,13 +50,13 @@ public class EnemigoController : MonoBehaviour
         //Aqui suelta los puntos
         if (IsBoss)
         {
-            playerController.XP += (int)(250.0 * playerController.Greed * (scalingController.Scalinglevel / 10));
-            playerController.TotalXP += (int)(250.0 * playerController.Greed * (scalingController.Scalinglevel / 10));
+            playerController.XP += (int)(250.0 * playerController.Greed * (1 + scalingController.Scalinglevel / 10));
+            playerController.TotalXP += (int)(250.0 * playerController.Greed * (1 + scalingController.Scalinglevel / 10));
         }
         else
         {
-            playerController.XP += (int)(50.0 * playerController.Greed * (scalingController.Scalinglevel / 10));
-            playerController.TotalXP += (int)(50.0 * playerController.Greed * (scalingController.Scalinglevel/10));
+            playerController.XP += (int)(50.0 * playerController.Greed * (1 + scalingController.Scalinglevel / 10));
+            playerController.TotalXP += (int)(50.0 * playerController.Greed * (1 + scalingController.Scalinglevel / 10));
         }
         Instantiate(particlePrefab, transform.position, Quaternion.identity);
 
