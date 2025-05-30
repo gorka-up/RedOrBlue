@@ -6,6 +6,7 @@ public class DeathController : MonoBehaviour
 {
     [SerializeField] GameObject TotalTime;
     [SerializeField] GameObject XP;
+    [SerializeField] GameObject Hud;
 
     public PlayerController playerController;
     public GameObject deathMenu;
@@ -17,6 +18,7 @@ public class DeathController : MonoBehaviour
     void Start()
     {
         deathMenu.SetActive(false);
+        Hud.SetActive(true);
         Time.timeScale = 1.0f;
         startingTime = Time.time;
     }
@@ -42,6 +44,7 @@ public class DeathController : MonoBehaviour
 
     public void SetDeathStats()
     {
+        Hud.SetActive(false);
         minutos = (int)((Time.time - startingTime) / 60);
         segundos = (int)((Time.time - startingTime) % 60);
         segundosBonito = (segundos > 9) ?segundos.ToString():"0" + segundos;

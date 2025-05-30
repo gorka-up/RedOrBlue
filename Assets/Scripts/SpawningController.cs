@@ -162,7 +162,7 @@ public class SpawningController : MonoBehaviour
     //Escala el tiempo entre spawns de enemigos
     public void ScalingSpawnTime()
     {
-        spawningTimer -= 0.1f;
+        spawningTimer -= 0.2f;
         if (spawningTimer < 0.5)
         {
             spawningTimer = 0.5f;
